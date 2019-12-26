@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminForm", "AdminForm\AdminForm.csproj", "{D8E1122F-97E5-44FA-906A-6B5DB6DFE816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldOperationForm", "FieldOperationForm\FieldOperationForm.csproj", "{845F5B3F-2317-4332-A594-1EB7001BBD01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E1122F-97E5-44FA-906A-6B5DB6DFE816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E1122F-97E5-44FA-906A-6B5DB6DFE816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E1122F-97E5-44FA-906A-6B5DB6DFE816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E1122F-97E5-44FA-906A-6B5DB6DFE816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845F5B3F-2317-4332-A594-1EB7001BBD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845F5B3F-2317-4332-A594-1EB7001BBD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845F5B3F-2317-4332-A594-1EB7001BBD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845F5B3F-2317-4332-A594-1EB7001BBD01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98EE4F5B-BA00-4226-9B45-9B20E22B3B76}
+	EndGlobalSection
+EndGlobal
