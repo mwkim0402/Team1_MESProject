@@ -46,8 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategorySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategorySearch.Designer.cs">
+      <DependentUpon>CategorySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FIndCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FIndCategory.Designer.cs">
+      <DependentUpon>FIndCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobOrderCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrderCreation.Designer.cs">
+      <DependentUpon>JobOrderCreation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CategorySearch.resx">
+      <DependentUpon>CategorySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIndCategory.resx">
+      <DependentUpon>FIndCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOrderCreation.resx">
+      <DependentUpon>JobOrderCreation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
