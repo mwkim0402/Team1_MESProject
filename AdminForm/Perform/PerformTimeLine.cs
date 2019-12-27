@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminForm
 {
-    public partial class JobOrderCreation : Form
+    public partial class PerformTimeLine : Form
     {
-        public JobOrderCreation()
+        public PerformTimeLine()
         {
             InitializeComponent();
         }

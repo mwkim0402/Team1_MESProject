@@ -338,3 +338,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/FieldOperationForm/Form1.Designer.cs
+/FieldOperationForm/Form1.cs

@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,11 +59,41 @@
     <Compile Include="FIndCategory.Designer.cs">
       <DependentUpon>FIndCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="JobOrderCreation.cs">
+    <Compile Include="JobOrder\dgvTwo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JobOrderCreation.Designer.cs">
+    <Compile Include="JobOrder\dgvTwo.Designer.cs">
+      <DependentUpon>dgvTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobOrder\dgvOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder\dgvOne.Designer.cs">
+      <DependentUpon>dgvOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\PerformLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\PerformLookup.Designer.cs">
+      <DependentUpon>PerformLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\PerformTimeLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\PerformTimeLine.Designer.cs">
+      <DependentUpon>PerformTimeLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobOrder\JobOrderCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder\JobOrderCreation.Designer.cs">
       <DependentUpon>JobOrderCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobOrder\MoldingOrderCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder\MoldingOrderCreation.designer.cs">
+      <DependentUpon>MoldingOrderCreation.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +103,23 @@
     <EmbeddedResource Include="FIndCategory.resx">
       <DependentUpon>FIndCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JobOrderCreation.resx">
+    <EmbeddedResource Include="JobOrder\dgvTwo.resx">
+      <DependentUpon>dgvTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder\dgvOne.resx">
+      <DependentUpon>dgvOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\PerformLookup.resx">
+      <DependentUpon>PerformLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\PerformTimeLine.resx">
+      <DependentUpon>PerformTimeLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder\JobOrderCreation.resx">
       <DependentUpon>JobOrderCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder\MoldingOrderCreation.resx">
+      <DependentUpon>MoldingOrderCreation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
