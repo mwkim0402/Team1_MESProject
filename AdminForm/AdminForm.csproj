@@ -77,10 +77,10 @@
     <Compile Include="Perform\PerformLookup.Designer.cs">
       <DependentUpon>PerformLookup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Perform\PerformTimeLine.cs">
+    <Compile Include="JobOrder\PerformTimeLine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Perform\PerformTimeLine.Designer.cs">
+    <Compile Include="JobOrder\PerformTimeLine.Designer.cs">
       <DependentUpon>PerformTimeLine.cs</DependentUpon>
     </Compile>
     <Compile Include="JobOrder\JobOrderCreation.cs">
@@ -112,7 +112,7 @@
     <EmbeddedResource Include="Perform\PerformLookup.resx">
       <DependentUpon>PerformLookup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Perform\PerformTimeLine.resx">
+    <EmbeddedResource Include="JobOrder\PerformTimeLine.resx">
       <DependentUpon>PerformTimeLine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JobOrder\JobOrderCreation.resx">
@@ -142,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Journal\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

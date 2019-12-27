@@ -1,6 +1,6 @@
 ﻿namespace AdminForm
 {
-    partial class dgvOne
+    partial class dgvOne 
     {
         /// <summary>
         /// Required designer variable.
