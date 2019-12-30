@@ -71,11 +71,35 @@
     <Compile Include="JobOrder\dgvOne.Designer.cs">
       <DependentUpon>dgvOne.cs</DependentUpon>
     </Compile>
+    <Compile Include="PerformManagement\EndPallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\EndPallet.Designer.cs">
+      <DependentUpon>EndPallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\GasUsage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\GasUsage.Designer.cs">
+      <DependentUpon>GasUsage.cs</DependentUpon>
+    </Compile>
     <Compile Include="PerformManagement\PerformSearch.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PerformManagement\PerformSearch.Designer.cs">
       <DependentUpon>PerformSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\ProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\ProductList.Designer.cs">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\UpdateDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\UpdateDetail.Designer.cs">
+      <DependentUpon>UpdateDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="Perform\PerformLookup.cs">
       <SubType>Form</SubType>
@@ -114,6 +138,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JobOrder\dgvOne.resx">
       <DependentUpon>dgvOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\EndPallet.resx">
+      <DependentUpon>EndPallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\GasUsage.resx">
+      <DependentUpon>GasUsage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\PerformSearch.resx">
+      <DependentUpon>PerformSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\ProductList.resx">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\UpdateDetail.resx">
+      <DependentUpon>UpdateDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perform\PerformLookup.resx">
       <DependentUpon>PerformLookup.cs</DependentUpon>
