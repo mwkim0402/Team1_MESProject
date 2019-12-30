@@ -59,17 +59,71 @@
     <Compile Include="FIndCategory.Designer.cs">
       <DependentUpon>FIndCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="JobOrder\dgvTwo.cs">
+    <Compile Include="Mold\MoldInformationRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JobOrder\dgvTwo.Designer.cs">
+    <Compile Include="Mold\MoldInformationRegister.designer.cs">
+      <DependentUpon>MoldInformationRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParentForm\dgvOneWithInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParentForm\dgvOneWithInput.Designer.cs">
+      <DependentUpon>dgvOneWithInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParentForm\dgvTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParentForm\dgvTwo.Designer.cs">
       <DependentUpon>dgvTwo.cs</DependentUpon>
     </Compile>
-    <Compile Include="JobOrder\dgvOne.cs">
+    <Compile Include="ParentForm\dgvOne.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JobOrder\dgvOne.Designer.cs">
+    <Compile Include="ParentForm\dgvOne.Designer.cs">
       <DependentUpon>dgvOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Journal\FiringWorkReport .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Journal\FiringWorkReport .Designer.cs">
+      <DependentUpon>FiringWorkReport .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Journal\SelectionPackingWorkReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Journal\SelectionPackingWorkReport.Designer.cs">
+      <DependentUpon>SelectionPackingWorkReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Journal\PackingWorkReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Journal\PackingWorkReport.Designer.cs">
+      <DependentUpon>PackingWorkReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Journal\WorkReportParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Journal\WorkReportParent.Designer.cs">
+      <DependentUpon>WorkReportParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Journal\MoldingWorkReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Journal\MoldingWorkReport.Designer.cs">
+      <DependentUpon>MoldingWorkReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Journal\LoadWorkReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Journal\LoadWorkReport.Designer.cs">
+      <DependentUpon>LoadWorkReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\MoldUseStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\MoldUseStatus.designer.cs">
+      <DependentUpon>MoldUseStatus.cs</DependentUpon>
     </Compile>
     <Compile Include="Perform\PerformLookup.cs">
       <SubType>Form</SubType>
@@ -103,11 +157,38 @@
     <EmbeddedResource Include="FIndCategory.resx">
       <DependentUpon>FIndCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JobOrder\dgvTwo.resx">
+    <EmbeddedResource Include="Mold\MoldInformationRegister.resx">
+      <DependentUpon>MoldInformationRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParentForm\dgvOneWithInput.resx">
+      <DependentUpon>dgvOneWithInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParentForm\dgvTwo.resx">
       <DependentUpon>dgvTwo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JobOrder\dgvOne.resx">
+    <EmbeddedResource Include="ParentForm\dgvOne.resx">
       <DependentUpon>dgvOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Journal\FiringWorkReport .resx">
+      <DependentUpon>FiringWorkReport .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Journal\SelectionPackingWorkReport.resx">
+      <DependentUpon>SelectionPackingWorkReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Journal\PackingWorkReport.resx">
+      <DependentUpon>PackingWorkReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Journal\WorkReportParent.resx">
+      <DependentUpon>WorkReportParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Journal\MoldingWorkReport.resx">
+      <DependentUpon>MoldingWorkReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Journal\LoadWorkReport.resx">
+      <DependentUpon>LoadWorkReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\MoldUseStatus.resx">
+      <DependentUpon>MoldUseStatus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perform\PerformLookup.resx">
       <DependentUpon>PerformLookup.cs</DependentUpon>
@@ -143,8 +224,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Journal\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
