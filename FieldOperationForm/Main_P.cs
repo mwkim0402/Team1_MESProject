@@ -19,24 +19,30 @@ namespace FieldOperationForm
 
         private void FieldmanagementP_Load(object sender, EventArgs e)
         {
-            Login frm = new Login();
+            Login frm = new Login(this);
             frm.MdiParent = this;
             frm.BringToFront();
           
             frm.Dock = DockStyle.Fill;
             frm.Show();
+            lblChange.Text = "로그인";
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-       
+            Login frm = new Login(this);
+            frm.MdiParent = this;
+            frm.BringToFront();
+
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            lblChange.Text = "로그인";
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btn_FormClose_Click(object sender, EventArgs e)
         {
-         
-
+            
         }
     }
 }

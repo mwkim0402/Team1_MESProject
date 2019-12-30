@@ -52,6 +52,12 @@
     <Compile Include="Fieldmanagement .Designer.cs">
       <DependentUpon>Fieldmanagement .cs</DependentUpon>
     </Compile>
+    <Compile Include="JobOrder\JobOrderStatus .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder\JobOrderStatus .Designer.cs">
+      <DependentUpon>JobOrderStatus .cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Fieldmanagement .resx">
       <DependentUpon>Fieldmanagement .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder\JobOrderStatus .resx">
+      <DependentUpon>JobOrderStatus .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
