@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace FieldOperationForm.CommonForm
 {
-    public partial class MoldingOrderCreation : dgvTwo
+    public partial class End : Form
     {
-        public MoldingOrderCreation()
+        public End()
         {
             InitializeComponent();
         }

@@ -8,13 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace FieldOperationForm
 {
-    public partial class MoldingOrderCreation : dgvTwo
+    public partial class workerAllocation : Form
     {
-        public MoldingOrderCreation()
+        Main_P main;
+        public workerAllocation(Main_P main1)
         {
             InitializeComponent();
+            main = main1;
         }
     }
 }

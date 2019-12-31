@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminForm
 {
-    public partial class MoldingOrderCreation : dgvTwo
+    public partial class LoginLogInfo : dgvOne
     {
-        public MoldingOrderCreation()
+        public LoginLogInfo()
         {
             InitializeComponent();
         }

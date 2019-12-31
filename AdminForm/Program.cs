@@ -16,7 +16,7 @@ namespace AdminForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MoldingJobOrderCreation());
+            Application.Run(new MoldingOrderCreation());
         }
     }
 }
