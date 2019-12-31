@@ -10,28 +10,29 @@ using System.Windows.Forms;
 
 namespace FieldOperationForm
 {
-    public partial class Login : Form
+    public partial class JobOrderStatus_Package : Form
     {
         Main_P main;
-        public Login(Main_P main1)
+
+        public JobOrderStatus_Package(Main_P main1)
         {
             InitializeComponent();
             main = main1;
         }
 
-
-
-        private void btn_Login_Click(object sender, EventArgs e)
+        private void JobOrderStatus_Package_Load(object sender, EventArgs e)
         {
-            JobOrderStatus frm = new JobOrderStatus(main);
+            main.lblChange.Text = "작업지시 현황";
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            workerAllocation frm = new workerAllocation(main);
             frm.BringToFront();
             frm.MdiParent = main;
             frm.Dock = DockStyle.Fill;
             frm.Show();
-            this.Hide();
-
-
+            main.lblChange.Text = "작업자할당";
         }
     }
 }

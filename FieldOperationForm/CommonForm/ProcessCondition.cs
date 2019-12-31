@@ -10,19 +10,13 @@ using System.Windows.Forms;
 
 namespace FieldOperationForm
 {
-    public partial class JobOrderStatus : Form
+    public partial class ProcessCondition : Form
     {
         Main_P main;
-
-        public JobOrderStatus(Main_P main1)
+        public ProcessCondition(Main_P main1)
         {
             InitializeComponent();
             main = main1;
-        }
-
-        private void JobOrderStatus_Load(object sender, EventArgs e)
-        {
-            main.lblChange.Text = "작업지시 현황";
         }
     }
 }
