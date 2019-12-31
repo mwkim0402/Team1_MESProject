@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminForm
 {
-    public partial class PerformLookup : dgvOne
+    public partial class WorkdiligenceLookup : dgvOne
     {
-        public PerformLookup()
+        public WorkdiligenceLookup()
         {
             InitializeComponent();
         }
