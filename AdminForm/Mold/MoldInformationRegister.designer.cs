@@ -56,8 +56,33 @@
             this.label23 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label23);
+            this.panel1.Controls.Add(this.radioButton3);
+            this.panel1.Controls.Add(this.dateTimePicker2);
+            this.panel1.Controls.Add(this.radioButton4);
+            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.label22);
+            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.textBox10);
+            this.panel1.Controls.Add(this.label20);
+            this.panel1.Controls.Add(this.textBox11);
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.textBox12);
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Controls.Add(this.textBox13);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.textBox14);
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.label15);
             // 
             // panel2
             // 
@@ -128,7 +153,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(1048, 528);
+            this.button1.Location = new System.Drawing.Point(1034, 18);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 48);
             this.button1.TabIndex = 48;
@@ -139,7 +164,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton3.Location = new System.Drawing.Point(996, 562);
+            this.radioButton3.Location = new System.Drawing.Point(982, 52);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(35, 16);
             this.radioButton3.TabIndex = 47;
@@ -151,7 +176,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton4.Location = new System.Drawing.Point(996, 528);
+            this.radioButton4.Location = new System.Drawing.Point(982, 18);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(35, 16);
             this.radioButton4.TabIndex = 46;
@@ -164,7 +189,7 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label13.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label13.Location = new System.Drawing.Point(820, 531);
+            this.label13.Location = new System.Drawing.Point(806, 21);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(56, 13);
             this.label13.TabIndex = 45;
@@ -172,42 +197,42 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(714, 526);
+            this.textBox9.Location = new System.Drawing.Point(700, 16);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 21);
             this.textBox9.TabIndex = 44;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(714, 557);
+            this.textBox10.Location = new System.Drawing.Point(700, 47);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(191, 21);
             this.textBox10.TabIndex = 43;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(517, 526);
+            this.textBox11.Location = new System.Drawing.Point(503, 16);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 21);
             this.textBox11.TabIndex = 42;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(302, 526);
+            this.textBox12.Location = new System.Drawing.Point(288, 16);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(100, 21);
             this.textBox12.TabIndex = 41;
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(110, 557);
+            this.textBox13.Location = new System.Drawing.Point(96, 47);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 21);
             this.textBox13.TabIndex = 40;
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(110, 526);
+            this.textBox14.Location = new System.Drawing.Point(96, 16);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 21);
             this.textBox14.TabIndex = 39;
@@ -217,7 +242,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label15.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label15.Location = new System.Drawing.Point(913, 528);
+            this.label15.Location = new System.Drawing.Point(899, 18);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(72, 16);
             this.label15.TabIndex = 38;
@@ -228,7 +253,7 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label16.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label16.Location = new System.Drawing.Point(668, 559);
+            this.label16.Location = new System.Drawing.Point(654, 49);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(40, 16);
             this.label16.TabIndex = 37;
@@ -239,7 +264,7 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label17.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label17.Location = new System.Drawing.Point(409, 559);
+            this.label17.Location = new System.Drawing.Point(395, 49);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(104, 16);
             this.label17.TabIndex = 36;
@@ -250,7 +275,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label18.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label18.Location = new System.Drawing.Point(216, 559);
+            this.label18.Location = new System.Drawing.Point(202, 49);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(72, 16);
             this.label18.TabIndex = 35;
@@ -261,7 +286,7 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label19.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label19.Location = new System.Drawing.Point(32, 559);
+            this.label19.Location = new System.Drawing.Point(18, 49);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(72, 16);
             this.label19.TabIndex = 34;
@@ -272,7 +297,7 @@
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label20.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label20.Location = new System.Drawing.Point(636, 528);
+            this.label20.Location = new System.Drawing.Point(622, 18);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(72, 16);
             this.label20.TabIndex = 33;
@@ -283,7 +308,7 @@
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label21.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label21.Location = new System.Drawing.Point(232, 528);
+            this.label21.Location = new System.Drawing.Point(218, 18);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(56, 16);
             this.label21.TabIndex = 32;
@@ -294,7 +319,7 @@
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label22.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label22.Location = new System.Drawing.Point(441, 528);
+            this.label22.Location = new System.Drawing.Point(427, 18);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(72, 16);
             this.label22.TabIndex = 31;
@@ -305,7 +330,7 @@
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label23.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label23.Location = new System.Drawing.Point(32, 528);
+            this.label23.Location = new System.Drawing.Point(18, 18);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(72, 16);
             this.label23.TabIndex = 30;
@@ -314,7 +339,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(519, 557);
+            this.dateTimePicker1.Location = new System.Drawing.Point(505, 47);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(98, 21);
             this.dateTimePicker1.TabIndex = 29;
@@ -322,7 +347,7 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(304, 557);
+            this.dateTimePicker2.Location = new System.Drawing.Point(290, 47);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(98, 21);
             this.dateTimePicker2.TabIndex = 28;
@@ -331,55 +356,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.ClientSize = new System.Drawing.Size(1156, 604);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.panel2);
             this.Name = "MoldInformationRegister";
+            this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
-            this.Controls.SetChildIndex(this.dateTimePicker2, 0);
-            this.Controls.SetChildIndex(this.dateTimePicker1, 0);
-            this.Controls.SetChildIndex(this.label23, 0);
-            this.Controls.SetChildIndex(this.label22, 0);
-            this.Controls.SetChildIndex(this.label21, 0);
-            this.Controls.SetChildIndex(this.label20, 0);
-            this.Controls.SetChildIndex(this.label19, 0);
-            this.Controls.SetChildIndex(this.label18, 0);
-            this.Controls.SetChildIndex(this.label17, 0);
-            this.Controls.SetChildIndex(this.label16, 0);
-            this.Controls.SetChildIndex(this.label15, 0);
-            this.Controls.SetChildIndex(this.textBox14, 0);
-            this.Controls.SetChildIndex(this.textBox13, 0);
-            this.Controls.SetChildIndex(this.textBox12, 0);
-            this.Controls.SetChildIndex(this.textBox11, 0);
-            this.Controls.SetChildIndex(this.textBox10, 0);
-            this.Controls.SetChildIndex(this.textBox9, 0);
-            this.Controls.SetChildIndex(this.label13, 0);
-            this.Controls.SetChildIndex(this.radioButton4, 0);
-            this.Controls.SetChildIndex(this.radioButton3, 0);
-            this.Controls.SetChildIndex(this.button1, 0);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
