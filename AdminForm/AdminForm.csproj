@@ -77,12 +77,6 @@
     <Compile Include="PerformManagement\EndPallet.Designer.cs">
       <DependentUpon>EndPallet.cs</DependentUpon>
     </Compile>
-    <Compile Include="PerformManagement\GasUsage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PerformManagement\GasUsage.Designer.cs">
-      <DependentUpon>GasUsage.cs</DependentUpon>
-    </Compile>
     <Compile Include="PerformManagement\PerformSearch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +121,42 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qulityManagement\MaterialManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\MaterialManagement.Designer.cs">
+      <DependentUpon>MaterialManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\ProcessInquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\ProcessInquiry.Designer.cs">
+      <DependentUpon>ProcessInquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\QulityInquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\QulityInquiry.Designer.cs">
+      <DependentUpon>QulityInquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\RegFaultyImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\RegFaultyImage.Designer.cs">
+      <DependentUpon>RegFaultyImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\RegProcessCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\RegProcessCondition.Designer.cs">
+      <DependentUpon>RegProcessCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\RegQuality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\RegQuality.Designer.cs">
+      <DependentUpon>RegQuality.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CategorySearch.resx">
       <DependentUpon>CategorySearch.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,9 +171,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PerformManagement\EndPallet.resx">
       <DependentUpon>EndPallet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GasUsage.resx">
-      <DependentUpon>GasUsage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PerformManagement\PerformSearch.resx">
       <DependentUpon>PerformSearch.cs</DependentUpon>
@@ -175,6 +202,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="qulityManagement\MaterialManagement.resx">
+      <DependentUpon>MaterialManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\ProcessInquiry.resx">
+      <DependentUpon>ProcessInquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\QulityInquiry.resx">
+      <DependentUpon>QulityInquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\RegFaultyImage.resx">
+      <DependentUpon>RegFaultyImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\RegProcessCondition.resx">
+      <DependentUpon>RegProcessCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\RegQuality.resx">
+      <DependentUpon>RegQuality.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -190,7 +235,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Journal\" />
-    <Folder Include="qulityManagement\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
