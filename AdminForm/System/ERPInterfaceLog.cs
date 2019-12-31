@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminForm
 {
-    public partial class UserGroupManger :dgvOneWithInput
+    public partial class ERPInterfaceLog : dgvOne
     {
-        public UserGroupManger()
+        public ERPInterfaceLog()
         {
             InitializeComponent();
         }

@@ -193,6 +193,54 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\IPAddressManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\IPAddressManager.Designer.cs">
+      <DependentUpon>IPAddressManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\ERPInterfaceLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ERPInterfaceLog.Designer.cs">
+      <DependentUpon>ERPInterfaceLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\NoticeRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\NoticeRegister.Designer.cs">
+      <DependentUpon>NoticeRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\MonitorManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\MonitorManager.Designer.cs">
+      <DependentUpon>MonitorManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\ModuleManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\ModuleManager.Designer.cs">
+      <DependentUpon>ModuleManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\LoginLogInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\LoginLogInfo.Designer.cs">
+      <DependentUpon>LoginLogInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\SystemCodeCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\SystemCodeCategory.Designer.cs">
+      <DependentUpon>SystemCodeCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\UserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\UserManager.Designer.cs">
+      <DependentUpon>UserManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="System\UserGroupManger.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -286,6 +334,30 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="System\IPAddressManager.resx">
+      <DependentUpon>IPAddressManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ERPInterfaceLog.resx">
+      <DependentUpon>ERPInterfaceLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\NoticeRegister.resx">
+      <DependentUpon>NoticeRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\MonitorManager.resx">
+      <DependentUpon>MonitorManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\ModuleManager.resx">
+      <DependentUpon>ModuleManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\LoginLogInfo.resx">
+      <DependentUpon>LoginLogInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\SystemCodeCategory.resx">
+      <DependentUpon>SystemCodeCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\UserManager.resx">
+      <DependentUpon>UserManager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="System\UserGroupManger.resx">
       <DependentUpon>UserGroupManger.cs</DependentUpon>
     </EmbeddedResource>

@@ -117,11 +117,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.DataGridView dgvSearchResult;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TabControl tabControl2;
-        private System.Windows.Forms.TabPage tabPage2;
+        protected System.Windows.Forms.TabControl tabControl1;
+        protected System.Windows.Forms.TabPage tabPage1;
+        protected System.Windows.Forms.DataGridView dgvSearchResult;
+        protected System.Windows.Forms.Panel panel1;
+        protected System.Windows.Forms.TabControl tabControl2;
+        protected System.Windows.Forms.TabPage tabPage2;
     }
 }
