@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace AdminForm.PerformManagement
 {
-    public partial class MoldingOrderCreation : dgvTwo
+    public partial class UpdateDetail : Form
     {
-        public MoldingOrderCreation()
+        public UpdateDetail()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

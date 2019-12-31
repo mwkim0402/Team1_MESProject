@@ -121,11 +121,29 @@
     <EmbeddedResource Include="CommonForm\Main_P.resx">
       <DependentUpon>Main_P.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\dgvOne.resx">
+      <DependentUpon>dgvOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\dgvTwo.resx">
+      <DependentUpon>dgvTwo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\dgvOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\dgvOne.Designer.cs">
+      <DependentUpon>dgvOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\dgvTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\dgvTwo.Designer.cs">
+      <DependentUpon>dgvTwo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace AdminForm
 {
-    public partial class PerformLookup : Form
+    public partial class PerformLookup : dgvOne
     {
         public PerformLookup()
         {

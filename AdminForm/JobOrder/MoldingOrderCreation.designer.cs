@@ -1,6 +1,6 @@
 ﻿namespace AdminForm
 {
-    partial class MoldingJobOrderCreation : dgvTwo
+    partial class MoldingOrderCreation : dgvTwo
     {
         /// <summary>
         /// Required designer variable.
@@ -154,8 +154,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1156, 604);
             this.Controls.Add(this.panel1);
-            this.Name = "MoldingJobOrderCreation";
-            this.Text = "MoldingJobOrderCreation";
+            this.Name = "MoldingOrderCreation";
+            this.Text = "MoldingOrderCreation";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

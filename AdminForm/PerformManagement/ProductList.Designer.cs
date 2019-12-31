@@ -1,6 +1,6 @@
 ﻿namespace AdminForm.PerformManagement
 {
-    partial class PerformSearch
+    partial class ProductList
     {
         /// <summary>
         /// Required designer variable.
@@ -29,16 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.fIndCategory1 = new AdminForm.FIndCategory();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.fIndCategory2 = new AdminForm.FIndCategory();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.fIndCategory1 = new AdminForm.FIndCategory();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -50,6 +46,8 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -62,37 +60,16 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.AliceBlue;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.fIndCategory2);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.fIndCategory1);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dateTimePicker2);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(26, 24);
+            this.panel1.Location = new System.Drawing.Point(23, 23);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1103, 55);
-            this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "작업 일자 :";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(91, 18);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(109, 21);
-            this.dateTimePicker1.TabIndex = 2;
+            this.panel1.TabIndex = 2;
             // 
             // label2
             // 
@@ -111,55 +88,38 @@
             this.dateTimePicker2.Size = new System.Drawing.Size(109, 21);
             this.dateTimePicker2.TabIndex = 2;
             // 
-            // fIndCategory1
+            // dateTimePicker1
             // 
-            this.fIndCategory1.Location = new System.Drawing.Point(430, 16);
-            this.fIndCategory1.Name = "fIndCategory1";
-            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory1.TabIndex = 1;
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(91, 18);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(109, 21);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 12);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "생산일자 :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(387, 23);
+            this.label3.Location = new System.Drawing.Point(398, 23);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 12);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "공정 :";
+            this.label3.TabIndex = 4;
+            this.label3.Text = "품목 :";
             // 
-            // label4
+            // fIndCategory1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(646, 23);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 12);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "작업장 :";
-            // 
-            // fIndCategory2
-            // 
-            this.fIndCategory2.Location = new System.Drawing.Point(701, 16);
-            this.fIndCategory2.Name = "fIndCategory2";
-            this.fIndCategory2.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory2.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(927, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "실적 보정";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(1008, 19);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "실적 분할";
-            this.button2.UseVisualStyleBackColor = true;
+            this.fIndCategory1.Location = new System.Drawing.Point(450, 16);
+            this.fIndCategory1.Name = "fIndCategory1";
+            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
+            this.fIndCategory1.TabIndex = 5;
             // 
             // tabControl1
             // 
@@ -167,11 +127,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(26, 82);
+            this.tabControl1.Location = new System.Drawing.Point(23, 84);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1103, 499);
-            this.tabControl1.TabIndex = 1;
+            this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
             // 
@@ -195,7 +155,9 @@
             this.Column4,
             this.Column5,
             this.Column6,
-            this.Column7});
+            this.Column7,
+            this.Column8,
+            this.Column9});
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
@@ -204,53 +166,67 @@
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "작업지시상태";
+            this.Column1.HeaderText = "생산일자";
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "작업지시번호";
+            this.Column2.HeaderText = "품목코드";
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "품목코드";
+            this.Column3.HeaderText = "품목명";
             this.Column3.Name = "Column3";
             // 
             // 품목상태
             // 
-            this.품목상태.HeaderText = "품목명";
+            this.품목상태.HeaderText = "팔레트번호";
             this.품목상태.Name = "품목상태";
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "작업장";
+            this.Column4.HeaderText = "입고 수량";
             this.Column4.Name = "Column4";
+            this.Column4.Width = 80;
             // 
             // Column5
             // 
-            this.Column5.HeaderText = "투입수량";
+            this.Column5.HeaderText = "마감시각";
             this.Column5.Name = "Column5";
             // 
             // Column6
             // 
-            this.Column6.HeaderText = "산출수량";
+            this.Column6.HeaderText = "취소시각";
             this.Column6.Name = "Column6";
             // 
             // Column7
             // 
-            this.Column7.HeaderText = "생산수량";
+            this.Column7.HeaderText = "ERP 업로드여부";
             this.Column7.Name = "Column7";
+            this.Column7.Width = 130;
             // 
-            // PerformSearch
+            // Column8
+            // 
+            this.Column8.HeaderText = "작업지시상태";
+            this.Column8.Name = "Column8";
+            this.Column8.Width = 120;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "작업지시여부";
+            this.Column9.Name = "Column9";
+            this.Column9.Width = 120;
+            // 
+            // ProductList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1154, 604);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
-            this.Name = "PerformSearch";
-            this.Text = "PerformSearch";
+            this.Name = "ProductList";
+            this.Text = "ProductList";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
@@ -263,16 +239,12 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        private FIndCategory fIndCategory1;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private FIndCategory fIndCategory2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private FIndCategory fIndCategory1;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -284,5 +256,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
     }
 }

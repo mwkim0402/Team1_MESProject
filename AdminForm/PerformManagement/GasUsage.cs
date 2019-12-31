@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace AdminForm.PerformManagement
 {
-    public partial class MoldingOrderCreation : dgvTwo
+    public partial class GasUsage : Form
     {
-        public MoldingOrderCreation()
+        public GasUsage()
         {
             InitializeComponent();
         }
