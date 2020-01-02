@@ -77,6 +77,12 @@
     <Compile Include="Mold\MoldInformationRegister.designer.cs">
       <DependentUpon>MoldInformationRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="ParentForm\dgvTwoWithInput .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParentForm\dgvTwoWithInput .Designer.cs">
+      <DependentUpon>dgvTwoWithInput .cs</DependentUpon>
+    </Compile>
     <Compile Include="ParentForm\dgvOneWithInput.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,29 +149,11 @@
     <Compile Include="PerformManagement\EndPallet.Designer.cs">
       <DependentUpon>EndPallet.cs</DependentUpon>
     </Compile>
-    <Compile Include="PerformManagement\GASUsingRegister.cs">
+    <Compile Include="PerformManagement\GasUsage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PerformManagement\GASUsingRegister.Designer.cs">
-      <DependentUpon>GASUsingRegister.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PerformManagement\GVLookup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PerformManagement\GVLookup.Designer.cs">
-      <DependentUpon>GVLookup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PerformManagement\GVStatus.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PerformManagement\GVStatus.Designer.cs">
-      <DependentUpon>GVStatus.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PerformManagement\NonOperationRegister.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PerformManagement\NonOperationRegister.Designer.cs">
-      <DependentUpon>NonOperationRegister.cs</DependentUpon>
+    <Compile Include="PerformManagement\GasUsage.Designer.cs">
+      <DependentUpon>GasUsage.cs</DependentUpon>
     </Compile>
     <Compile Include="PerformManagement\PerformSearch.cs">
       <SubType>Form</SubType>
@@ -185,17 +173,53 @@
     <Compile Include="PerformManagement\UpdateDetail.Designer.cs">
       <DependentUpon>UpdateDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="PerformManagement\WorkdiligenceLookup.cs">
+    <Compile Include="Perform\WorkdiligenceStatusanalysis.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PerformManagement\WorkdiligenceLookup.Designer.cs">
+    <Compile Include="Perform\WorkdiligenceStatusanalysis.Designer.cs">
+      <DependentUpon>WorkdiligenceStatusanalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\WorkdiligenceLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\WorkdiligenceLookup.Designer.cs">
       <DependentUpon>WorkdiligenceLookup.cs</DependentUpon>
     </Compile>
-    <Compile Include="PerformManagement\WorkdiligenceStatusanalysis.cs">
+    <Compile Include="Perform\NonOperationRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PerformManagement\WorkdiligenceStatusanalysis.Designer.cs">
-      <DependentUpon>WorkdiligenceStatusanalysis.cs</DependentUpon>
+    <Compile Include="Perform\NonOperationRegister.Designer.cs">
+      <DependentUpon>NonOperationRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\GVLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\GVLookup.Designer.cs">
+      <DependentUpon>GVLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\GVStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\GVStatus.Designer.cs">
+      <DependentUpon>GVStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\GASUsingRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\GASUsingRegister.Designer.cs">
+      <DependentUpon>GASUsingRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\FinishedWarehousing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\FinishedWarehousing.Designer.cs">
+      <DependentUpon>FinishedWarehousing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perform\PerformLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perform\PerformLookup.Designer.cs">
+      <DependentUpon>PerformLookup.cs</DependentUpon>
     </Compile>
     <Compile Include="JobOrder\PerformTimeLine.cs">
       <SubType>Form</SubType>
@@ -253,6 +277,24 @@
     <Compile Include="qulityManagement\RegQuality.Designer.cs">
       <DependentUpon>RegQuality.cs</DependentUpon>
     </Compile>
+    <Compile Include="StandardInfo\FactoryInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\FactoryInfo.Designer.cs">
+      <DependentUpon>FactoryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\ProcessInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\ProcessInfo.Designer.cs">
+      <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\MenuManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\MenuManagement.Designer.cs">
+      <DependentUpon>MenuManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="System\IPAddressManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -288,6 +330,12 @@
     </Compile>
     <Compile Include="System\LoginLogInfo.Designer.cs">
       <DependentUpon>LoginLogInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\SystemCodeCategoryDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\SystemCodeCategoryDetail.Designer.cs">
+      <DependentUpon>SystemCodeCategoryDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="System\SystemCodeCategory.cs">
       <SubType>Form</SubType>
@@ -328,6 +376,9 @@
     <EmbeddedResource Include="Mold\MoldInformationRegister.resx">
       <DependentUpon>MoldInformationRegister.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ParentForm\dgvTwoWithInput .resx">
+      <DependentUpon>dgvTwoWithInput .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ParentForm\dgvOneWithInput.resx">
       <DependentUpon>dgvOneWithInput.cs</DependentUpon>
     </EmbeddedResource>
@@ -361,17 +412,8 @@
     <EmbeddedResource Include="PerformManagement\EndPallet.resx">
       <DependentUpon>EndPallet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GASUsingRegister.resx">
-      <DependentUpon>GASUsingRegister.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GVLookup.resx">
-      <DependentUpon>GVLookup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GVStatus.resx">
-      <DependentUpon>GVStatus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\NonOperationRegister.resx">
-      <DependentUpon>NonOperationRegister.cs</DependentUpon>
+    <EmbeddedResource Include="PerformManagement\GasUsage.resx">
+      <DependentUpon>GasUsage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PerformManagement\PerformSearch.resx">
       <DependentUpon>PerformSearch.cs</DependentUpon>
@@ -382,11 +424,29 @@
     <EmbeddedResource Include="PerformManagement\UpdateDetail.resx">
       <DependentUpon>UpdateDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\WorkdiligenceLookup.resx">
+    <EmbeddedResource Include="Perform\WorkdiligenceStatusanalysis.resx">
+      <DependentUpon>WorkdiligenceStatusanalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\WorkdiligenceLookup.resx">
       <DependentUpon>WorkdiligenceLookup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\WorkdiligenceStatusanalysis.resx">
-      <DependentUpon>WorkdiligenceStatusanalysis.cs</DependentUpon>
+    <EmbeddedResource Include="Perform\NonOperationRegister.resx">
+      <DependentUpon>NonOperationRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\GVLookup.resx">
+      <DependentUpon>GVLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\GVStatus.resx">
+      <DependentUpon>GVStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\GASUsingRegister.resx">
+      <DependentUpon>GASUsingRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\FinishedWarehousing.resx">
+      <DependentUpon>FinishedWarehousing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perform\PerformLookup.resx">
+      <DependentUpon>PerformLookup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JobOrder\PerformTimeLine.resx">
       <DependentUpon>PerformTimeLine.cs</DependentUpon>
@@ -424,6 +484,15 @@
     <EmbeddedResource Include="qulityManagement\RegQuality.resx">
       <DependentUpon>RegQuality.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\FactoryInfo.resx">
+      <DependentUpon>FactoryInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\ProcessInfo.resx">
+      <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\MenuManagement.resx">
+      <DependentUpon>MenuManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="System\IPAddressManager.resx">
       <DependentUpon>IPAddressManager.cs</DependentUpon>
     </EmbeddedResource>
@@ -441,6 +510,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="System\LoginLogInfo.resx">
       <DependentUpon>LoginLogInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\SystemCodeCategoryDetail.resx">
+      <DependentUpon>SystemCodeCategoryDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\SystemCodeCategory.resx">
       <DependentUpon>SystemCodeCategory.cs</DependentUpon>
@@ -466,6 +538,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FieldOperationForm\FieldOperationForm.csproj">
+      <Project>{845f5b3f-2317-4332-a594-1eb7001bbd01}</Project>
+      <Name>FieldOperationForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES_DB\MES_DB.csproj">
+      <Project>{c8436adf-2d7b-403d-ab76-b7d56f6b5a07}</Project>
+      <Name>MES_DB</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
