@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonForm\End.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForm\End.Designer.cs">
+      <DependentUpon>End.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommonForm\ProcessCondition.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CommonForm\End.resx">
+      <DependentUpon>End.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CommonForm\ProcessCondition.resx">
       <DependentUpon>ProcessCondition.cs</DependentUpon>
     </EmbeddedResource>

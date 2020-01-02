@@ -43,6 +43,7 @@ namespace FieldOperationForm
         private void btn_FormClose_Click(object sender, EventArgs e)
         {
             
+            Application.Exit();
         }
     }
 }
