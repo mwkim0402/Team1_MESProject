@@ -259,6 +259,18 @@
     <Compile Include="qulityManagement\RegQuality.Designer.cs">
       <DependentUpon>RegQuality.cs</DependentUpon>
     </Compile>
+    <Compile Include="StandardInfo\EtherIOChannelSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\EtherIOChannelSet.Designer.cs">
+      <DependentUpon>EtherIOChannelSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\EtherIOInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\EtherIOInfo.Designer.cs">
+      <DependentUpon>EtherIOInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="StandardInfo\FactoryInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -282,6 +294,24 @@
     </Compile>
     <Compile Include="StandardInfo\ProcessInfo.Designer.cs">
       <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\QulitySizeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\QulitySizeSet.Designer.cs">
+      <DependentUpon>QulitySizeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\UserAssort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\UserAssort.Designer.cs">
+      <DependentUpon>UserAssort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\UserDetailAssort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\UserDetailAssort.Designer.cs">
+      <DependentUpon>UserDetailAssort.cs</DependentUpon>
     </Compile>
     <Compile Include="System\MenuManagement.cs">
       <SubType>Form</SubType>
@@ -418,6 +448,15 @@
     <EmbeddedResource Include="PerformManagement\NonOperationRegister.resx">
       <DependentUpon>NonOperationRegister.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\GVLookup.resx">
+      <DependentUpon>GVLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\GVStatus.resx">
+      <DependentUpon>GVStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\NonOperationRegister.resx">
+      <DependentUpon>NonOperationRegister.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PerformManagement\PerformSearch.resx">
       <DependentUpon>PerformSearch.cs</DependentUpon>
     </EmbeddedResource>
@@ -469,6 +508,12 @@
     <EmbeddedResource Include="qulityManagement\RegQuality.resx">
       <DependentUpon>RegQuality.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\EtherIOChannelSet.resx">
+      <DependentUpon>EtherIOChannelSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\EtherIOInfo.resx">
+      <DependentUpon>EtherIOInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\FactoryInfo.resx">
       <DependentUpon>FactoryInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -480,6 +525,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\ProcessInfo.resx">
       <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\QulitySizeSet.resx">
+      <DependentUpon>QulitySizeSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\UserAssort.resx">
+      <DependentUpon>UserAssort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\UserDetailAssort.resx">
+      <DependentUpon>UserDetailAssort.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\MenuManagement.resx">
       <DependentUpon>MenuManagement.cs</DependentUpon>
