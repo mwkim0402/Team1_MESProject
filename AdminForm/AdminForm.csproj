@@ -59,6 +59,12 @@
     <Compile Include="FIndCategory.Designer.cs">
       <DependentUpon>FIndCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="JobOrder\Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder\Order.designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mold\MoldInformationRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +130,36 @@
     </Compile>
     <Compile Include="Mold\MoldUseStatus.designer.cs">
       <DependentUpon>MoldUseStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\EndPallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\EndPallet.Designer.cs">
+      <DependentUpon>EndPallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\GasUsage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\GasUsage.Designer.cs">
+      <DependentUpon>GasUsage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\PerformSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\PerformSearch.Designer.cs">
+      <DependentUpon>PerformSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\ProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\ProductList.Designer.cs">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\UpdateDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\UpdateDetail.Designer.cs">
+      <DependentUpon>UpdateDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="Perform\WorkdiligenceStatusanalysis.cs">
       <SubType>Form</SubType>
@@ -259,6 +295,9 @@
     <EmbeddedResource Include="FIndCategory.resx">
       <DependentUpon>FIndCategory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder\Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mold\MoldInformationRegister.resx">
       <DependentUpon>MoldInformationRegister.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +330,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mold\MoldUseStatus.resx">
       <DependentUpon>MoldUseStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\EndPallet.resx">
+      <DependentUpon>EndPallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\GasUsage.resx">
+      <DependentUpon>GasUsage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\PerformSearch.resx">
+      <DependentUpon>PerformSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\ProductList.resx">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\UpdateDetail.resx">
+      <DependentUpon>UpdateDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perform\WorkdiligenceStatusanalysis.resx">
       <DependentUpon>WorkdiligenceStatusanalysis.cs</DependentUpon>
