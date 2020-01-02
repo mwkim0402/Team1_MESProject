@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm.PerformManagement
+namespace AdminForm.StandardInfo
 {
-    public partial class PerformSearch : dgvOne
+    public partial class GvInformation : dgvOneWithInput
     {
-        public PerformSearch()
+        public GvInformation()
         {
             InitializeComponent();
         }

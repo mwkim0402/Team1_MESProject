@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm.PerformManagement
+namespace AdminForm.StandardInfo
 {
-    public partial class PerformSearch : dgvOne
+    public partial class IPCInfo : AdminForm.dgvOneWithInput
     {
-        public PerformSearch()
+        public IPCInfo()
         {
             InitializeComponent();
         }

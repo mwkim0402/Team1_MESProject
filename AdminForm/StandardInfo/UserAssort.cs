@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace AdminForm.StandardInfo
 {
-    public partial class FinishedWarehousing : dgvOne
+    public partial class UserAssort : dgvOneWithInput
     {
-        public FinishedWarehousing()
+        public UserAssort()
         {
             InitializeComponent();
         }

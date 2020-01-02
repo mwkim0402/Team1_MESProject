@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm.PerformManagement
+namespace AdminForm
 {
-    public partial class GasUsage : Form
+    public partial class FactoryInfo : Form
     {
-        public GasUsage()
+        public FactoryInfo()
         {
             InitializeComponent();
         }

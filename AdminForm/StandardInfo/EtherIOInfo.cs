@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace AdminForm.StandardInfo
 {
-    public partial class PerformLookup : dgvOne
+    public partial class EtherIOInfo : AdminForm.dgvOneWithInput
     {
-        public PerformLookup()
+        public EtherIOInfo()
         {
             InitializeComponent();
         }
