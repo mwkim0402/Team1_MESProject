@@ -77,14 +77,30 @@
             this.radioButton13 = new System.Windows.Forms.RadioButton();
             this.radioButton14 = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.radioButton15 = new System.Windows.Forms.RadioButton();
+            this.radioButton16 = new System.Windows.Forms.RadioButton();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.radioButton17 = new System.Windows.Forms.RadioButton();
+            this.radioButton18 = new System.Windows.Forms.RadioButton();
+            this.label16 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -97,6 +113,8 @@
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -290,7 +308,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tabControl1.Location = new System.Drawing.Point(12, 85);
+            this.tabControl1.Location = new System.Drawing.Point(12, 87);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(94, 28);
@@ -310,17 +328,17 @@
             // 
             this.dgvSearchResult.BackgroundColor = System.Drawing.Color.White;
             this.dgvSearchResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSearchResult.Location = new System.Drawing.Point(12, 113);
+            this.dgvSearchResult.Location = new System.Drawing.Point(12, 115);
             this.dgvSearchResult.Name = "dgvSearchResult";
             this.dgvSearchResult.RowTemplate.Height = 23;
-            this.dgvSearchResult.Size = new System.Drawing.Size(1132, 276);
+            this.dgvSearchResult.Size = new System.Drawing.Size(1132, 201);
             this.dgvSearchResult.TabIndex = 8;
             // 
             // tabControl2
             // 
             this.tabControl2.Controls.Add(this.tabPage2);
             this.tabControl2.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tabControl2.Location = new System.Drawing.Point(12, 395);
+            this.tabControl2.Location = new System.Drawing.Point(12, 320);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
             this.tabControl2.Size = new System.Drawing.Size(94, 28);
@@ -339,14 +357,26 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.Controls.Add(this.textBox13);
+            this.panel1.Controls.Add(this.label17);
+            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.label16);
+            this.panel1.Controls.Add(this.groupBox8);
+            this.panel1.Controls.Add(this.groupBox9);
+            this.panel1.Controls.Add(this.textBox11);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.comboBox3);
+            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.textBox10);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.textBox7);
             this.panel1.Controls.Add(this.textBox8);
             this.panel1.Controls.Add(this.textBox6);
             this.panel1.Controls.Add(this.textBox5);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.groupBox6);
             this.panel1.Controls.Add(this.groupBox7);
             this.panel1.Controls.Add(this.groupBox4);
@@ -356,9 +386,9 @@
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Location = new System.Drawing.Point(12, 423);
+            this.panel1.Location = new System.Drawing.Point(12, 348);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1132, 169);
+            this.panel1.Size = new System.Drawing.Size(1132, 244);
             this.panel1.TabIndex = 10;
             // 
             // button2
@@ -403,9 +433,9 @@
             this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox2.Location = new System.Drawing.Point(845, 92);
+            this.groupBox2.Location = new System.Drawing.Point(835, 125);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(197, 64);
+            this.groupBox2.Size = new System.Drawing.Size(207, 49);
             this.groupBox2.TabIndex = 102;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "작업지시 자동생성 유무";
@@ -414,7 +444,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton1.Location = new System.Drawing.Point(37, 28);
+            this.radioButton1.Location = new System.Drawing.Point(48, 20);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(42, 20);
             this.radioButton1.TabIndex = 77;
@@ -426,7 +456,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton2.Location = new System.Drawing.Point(105, 28);
+            this.radioButton2.Location = new System.Drawing.Point(116, 20);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(42, 20);
             this.radioButton2.TabIndex = 79;
@@ -450,9 +480,9 @@
             this.groupBox3.Controls.Add(this.radioButton3);
             this.groupBox3.Controls.Add(this.radioButton4);
             this.groupBox3.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox3.Location = new System.Drawing.Point(845, 14);
+            this.groupBox3.Location = new System.Drawing.Point(835, 15);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(197, 64);
+            this.groupBox3.Size = new System.Drawing.Size(207, 47);
             this.groupBox3.TabIndex = 103;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "GAS 사용공정 유무";
@@ -461,7 +491,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton3.Location = new System.Drawing.Point(37, 28);
+            this.radioButton3.Location = new System.Drawing.Point(48, 20);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(42, 20);
             this.radioButton3.TabIndex = 77;
@@ -473,7 +503,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton4.Location = new System.Drawing.Point(105, 28);
+            this.radioButton4.Location = new System.Drawing.Point(116, 20);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(42, 20);
             this.radioButton4.TabIndex = 79;
@@ -486,9 +516,9 @@
             this.groupBox4.Controls.Add(this.radioButton5);
             this.groupBox4.Controls.Add(this.radioButton6);
             this.groupBox4.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox4.Location = new System.Drawing.Point(629, 14);
+            this.groupBox4.Location = new System.Drawing.Point(619, 127);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(197, 64);
+            this.groupBox4.Size = new System.Drawing.Size(207, 47);
             this.groupBox4.TabIndex = 105;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "자동 비가동 여부";
@@ -497,7 +527,7 @@
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton5.Location = new System.Drawing.Point(37, 28);
+            this.radioButton5.Location = new System.Drawing.Point(48, 20);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(42, 20);
             this.radioButton5.TabIndex = 77;
@@ -509,7 +539,7 @@
             // 
             this.radioButton6.AutoSize = true;
             this.radioButton6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton6.Location = new System.Drawing.Point(105, 28);
+            this.radioButton6.Location = new System.Drawing.Point(116, 20);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(42, 20);
             this.radioButton6.TabIndex = 79;
@@ -522,9 +552,9 @@
             this.groupBox5.Controls.Add(this.radioButton7);
             this.groupBox5.Controls.Add(this.radioButton8);
             this.groupBox5.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox5.Location = new System.Drawing.Point(629, 92);
+            this.groupBox5.Location = new System.Drawing.Point(835, 70);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(197, 64);
+            this.groupBox5.Size = new System.Drawing.Size(207, 49);
             this.groupBox5.TabIndex = 104;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "작업지시 자동시작 여부";
@@ -533,7 +563,7 @@
             // 
             this.radioButton7.AutoSize = true;
             this.radioButton7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton7.Location = new System.Drawing.Point(37, 28);
+            this.radioButton7.Location = new System.Drawing.Point(48, 20);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(42, 20);
             this.radioButton7.TabIndex = 77;
@@ -545,7 +575,7 @@
             // 
             this.radioButton8.AutoSize = true;
             this.radioButton8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton8.Location = new System.Drawing.Point(105, 28);
+            this.radioButton8.Location = new System.Drawing.Point(116, 20);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(42, 20);
             this.radioButton8.TabIndex = 79;
@@ -558,9 +588,9 @@
             this.groupBox6.Controls.Add(this.radioButton11);
             this.groupBox6.Controls.Add(this.radioButton12);
             this.groupBox6.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox6.Location = new System.Drawing.Point(423, 14);
+            this.groupBox6.Location = new System.Drawing.Point(619, 15);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(197, 64);
+            this.groupBox6.Size = new System.Drawing.Size(207, 47);
             this.groupBox6.TabIndex = 107;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "사용여부";
@@ -569,7 +599,7 @@
             // 
             this.radioButton11.AutoSize = true;
             this.radioButton11.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton11.Location = new System.Drawing.Point(37, 28);
+            this.radioButton11.Location = new System.Drawing.Point(48, 20);
             this.radioButton11.Name = "radioButton11";
             this.radioButton11.Size = new System.Drawing.Size(42, 20);
             this.radioButton11.TabIndex = 77;
@@ -581,7 +611,7 @@
             // 
             this.radioButton12.AutoSize = true;
             this.radioButton12.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton12.Location = new System.Drawing.Point(105, 28);
+            this.radioButton12.Location = new System.Drawing.Point(116, 20);
             this.radioButton12.Name = "radioButton12";
             this.radioButton12.Size = new System.Drawing.Size(42, 20);
             this.radioButton12.TabIndex = 79;
@@ -594,9 +624,9 @@
             this.groupBox7.Controls.Add(this.radioButton13);
             this.groupBox7.Controls.Add(this.radioButton14);
             this.groupBox7.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox7.Location = new System.Drawing.Point(423, 92);
+            this.groupBox7.Location = new System.Drawing.Point(619, 70);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(197, 64);
+            this.groupBox7.Size = new System.Drawing.Size(207, 49);
             this.groupBox7.TabIndex = 106;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "팔레트 생성 유무";
@@ -605,7 +635,7 @@
             // 
             this.radioButton13.AutoSize = true;
             this.radioButton13.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton13.Location = new System.Drawing.Point(37, 28);
+            this.radioButton13.Location = new System.Drawing.Point(48, 20);
             this.radioButton13.Name = "radioButton13";
             this.radioButton13.Size = new System.Drawing.Size(42, 20);
             this.radioButton13.TabIndex = 77;
@@ -617,7 +647,7 @@
             // 
             this.radioButton14.AutoSize = true;
             this.radioButton14.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton14.Location = new System.Drawing.Point(105, 28);
+            this.radioButton14.Location = new System.Drawing.Point(116, 20);
             this.radioButton14.Name = "radioButton14";
             this.radioButton14.Size = new System.Drawing.Size(42, 20);
             this.radioButton14.TabIndex = 79;
@@ -636,23 +666,12 @@
             this.label11.TabIndex = 104;
             this.label11.Text = "작업장 유형";
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.label12.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label12.Location = new System.Drawing.Point(24, 131);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(77, 16);
-            this.label12.TabIndex = 108;
-            this.label12.Text = "공정 코드";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label7.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label7.Location = new System.Drawing.Point(224, 20);
+            this.label7.Location = new System.Drawing.Point(346, 23);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 16);
             this.label7.TabIndex = 109;
@@ -661,9 +680,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.Location = new System.Drawing.Point(1046, 61);
+            this.button3.Location = new System.Drawing.Point(1047, 59);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(82, 48);
+            this.button3.Size = new System.Drawing.Size(82, 132);
             this.button3.TabIndex = 110;
             this.button3.Text = "저장";
             this.button3.UseVisualStyleBackColor = true;
@@ -672,28 +691,21 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(107, 19);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 21);
+            this.textBox5.Size = new System.Drawing.Size(154, 21);
             this.textBox5.TabIndex = 111;
             // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(107, 55);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 21);
+            this.textBox6.Size = new System.Drawing.Size(154, 21);
             this.textBox6.TabIndex = 112;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(107, 129);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 21);
-            this.textBox7.TabIndex = 114;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(307, 19);
+            this.textBox8.Location = new System.Drawing.Point(429, 22);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 21);
+            this.textBox8.Size = new System.Drawing.Size(154, 21);
             this.textBox8.TabIndex = 113;
             // 
             // comboBox2
@@ -701,8 +713,190 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(107, 92);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 20);
+            this.comboBox2.Size = new System.Drawing.Size(154, 20);
             this.comboBox2.TabIndex = 115;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(429, 57);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(154, 21);
+            this.textBox9.TabIndex = 117;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label8.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label8.Location = new System.Drawing.Point(367, 59);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(56, 16);
+            this.label8.TabIndex = 116;
+            this.label8.Text = "공정명";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(429, 94);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(154, 21);
+            this.textBox10.TabIndex = 119;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label13.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label13.Location = new System.Drawing.Point(293, 94);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(130, 16);
+            this.label13.TabIndex = 118;
+            this.label13.Text = "자동 비가동 시간";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(429, 130);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(154, 20);
+            this.comboBox3.TabIndex = 121;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label14.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label14.Location = new System.Drawing.Point(314, 131);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(109, 16);
+            this.label14.TabIndex = 120;
+            this.label14.Text = "실적등록 유형";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(107, 207);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(476, 21);
+            this.textBox11.TabIndex = 123;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label15.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label15.Location = new System.Drawing.Point(61, 209);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(40, 16);
+            this.label15.TabIndex = 122;
+            this.label15.Text = "비고";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.radioButton15);
+            this.groupBox8.Controls.Add(this.radioButton16);
+            this.groupBox8.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox8.Location = new System.Drawing.Point(619, 183);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(207, 47);
+            this.groupBox8.TabIndex = 107;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "금형 장착 여부";
+            // 
+            // radioButton15
+            // 
+            this.radioButton15.AutoSize = true;
+            this.radioButton15.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.radioButton15.Location = new System.Drawing.Point(48, 20);
+            this.radioButton15.Name = "radioButton15";
+            this.radioButton15.Size = new System.Drawing.Size(42, 20);
+            this.radioButton15.TabIndex = 77;
+            this.radioButton15.TabStop = true;
+            this.radioButton15.Text = "유";
+            this.radioButton15.UseVisualStyleBackColor = false;
+            // 
+            // radioButton16
+            // 
+            this.radioButton16.AutoSize = true;
+            this.radioButton16.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.radioButton16.Location = new System.Drawing.Point(116, 20);
+            this.radioButton16.Name = "radioButton16";
+            this.radioButton16.Size = new System.Drawing.Size(42, 20);
+            this.radioButton16.TabIndex = 79;
+            this.radioButton16.TabStop = true;
+            this.radioButton16.Text = "무";
+            this.radioButton16.UseVisualStyleBackColor = false;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.radioButton17);
+            this.groupBox9.Controls.Add(this.radioButton18);
+            this.groupBox9.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.groupBox9.Location = new System.Drawing.Point(835, 181);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(207, 49);
+            this.groupBox9.TabIndex = 106;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "투입수량 자동처리 유무";
+            // 
+            // radioButton17
+            // 
+            this.radioButton17.AutoSize = true;
+            this.radioButton17.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.radioButton17.Location = new System.Drawing.Point(48, 20);
+            this.radioButton17.Name = "radioButton17";
+            this.radioButton17.Size = new System.Drawing.Size(42, 20);
+            this.radioButton17.TabIndex = 77;
+            this.radioButton17.TabStop = true;
+            this.radioButton17.Text = "유";
+            this.radioButton17.UseVisualStyleBackColor = false;
+            // 
+            // radioButton18
+            // 
+            this.radioButton18.AutoSize = true;
+            this.radioButton18.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.radioButton18.Location = new System.Drawing.Point(116, 20);
+            this.radioButton18.Name = "radioButton18";
+            this.radioButton18.Size = new System.Drawing.Size(42, 20);
+            this.radioButton18.TabIndex = 79;
+            this.radioButton18.TabStop = true;
+            this.radioButton18.Text = "무";
+            this.radioButton18.UseVisualStyleBackColor = false;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label16.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label16.Location = new System.Drawing.Point(24, 134);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(77, 16);
+            this.label16.TabIndex = 124;
+            this.label16.Text = "실적 단위";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(107, 132);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(154, 20);
+            this.comboBox4.TabIndex = 125;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(429, 170);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(154, 21);
+            this.textBox13.TabIndex = 127;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label17.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label17.Location = new System.Drawing.Point(293, 172);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(125, 16);
+            this.label17.TabIndex = 126;
+            this.label17.Text = "작업지시 이니셜";
             // 
             // FactoryInfo
             // 
@@ -737,6 +931,10 @@
             this.groupBox6.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -771,7 +969,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.RadioButton radioButton12;
@@ -794,10 +991,27 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.RadioButton radioButton15;
+        private System.Windows.Forms.RadioButton radioButton16;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.RadioButton radioButton17;
+        private System.Windows.Forms.RadioButton radioButton18;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label8;
     }
 }
