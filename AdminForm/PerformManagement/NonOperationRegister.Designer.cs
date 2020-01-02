@@ -58,7 +58,7 @@
             // 
             // fIndCategory1
             // 
-            this.fIndCategory1.Location = new System.Drawing.Point(662, 22);
+            this.fIndCategory1.Location = new System.Drawing.Point(678, 24);
             this.fIndCategory1.Name = "fIndCategory1";
             this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
             this.fIndCategory1.TabIndex = 7;
