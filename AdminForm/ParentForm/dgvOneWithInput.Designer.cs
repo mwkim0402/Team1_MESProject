@@ -63,7 +63,7 @@
             // 
             this.dgvSearchResult.BackgroundColor = System.Drawing.Color.White;
             this.dgvSearchResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSearchResult.Location = new System.Drawing.Point(12, 114);
+            this.dgvSearchResult.Location = new System.Drawing.Point(16, 114);
             this.dgvSearchResult.Name = "dgvSearchResult";
             this.dgvSearchResult.RowTemplate.Height = 23;
             this.dgvSearchResult.Size = new System.Drawing.Size(1132, 359);

@@ -33,6 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -58,6 +60,12 @@
     </Compile>
     <Compile Include="FIndCategory.Designer.cs">
       <DependentUpon>FIndCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Mold\MoldInformationRegister.cs">
       <SubType>Form</SubType>
@@ -124,6 +132,36 @@
     </Compile>
     <Compile Include="Mold\MoldUseStatus.designer.cs">
       <DependentUpon>MoldUseStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\EndPallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\EndPallet.Designer.cs">
+      <DependentUpon>EndPallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\GasUsage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\GasUsage.Designer.cs">
+      <DependentUpon>GasUsage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\PerformSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\PerformSearch.Designer.cs">
+      <DependentUpon>PerformSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\ProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\ProductList.Designer.cs">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformManagement\UpdateDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformManagement\UpdateDetail.Designer.cs">
+      <DependentUpon>UpdateDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="Perform\WorkdiligenceStatusanalysis.cs">
       <SubType>Form</SubType>
@@ -193,6 +231,42 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qulityManagement\MaterialManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\MaterialManagement.Designer.cs">
+      <DependentUpon>MaterialManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\ProcessInquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\ProcessInquiry.Designer.cs">
+      <DependentUpon>ProcessInquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\QulityInquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\QulityInquiry.Designer.cs">
+      <DependentUpon>QulityInquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\RegFaultyImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\RegFaultyImage.Designer.cs">
+      <DependentUpon>RegFaultyImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\RegProcessCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\RegProcessCondition.Designer.cs">
+      <DependentUpon>RegProcessCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qulityManagement\RegQuality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\RegQuality.Designer.cs">
+      <DependentUpon>RegQuality.cs</DependentUpon>
+    </Compile>
     <Compile Include="System\IPAddressManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -259,6 +333,9 @@
     <EmbeddedResource Include="FIndCategory.resx">
       <DependentUpon>FIndCategory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mold\MoldInformationRegister.resx">
       <DependentUpon>MoldInformationRegister.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +368,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mold\MoldUseStatus.resx">
       <DependentUpon>MoldUseStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\EndPallet.resx">
+      <DependentUpon>EndPallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\GasUsage.resx">
+      <DependentUpon>GasUsage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\PerformSearch.resx">
+      <DependentUpon>PerformSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\ProductList.resx">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\UpdateDetail.resx">
+      <DependentUpon>UpdateDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perform\WorkdiligenceStatusanalysis.resx">
       <DependentUpon>WorkdiligenceStatusanalysis.cs</DependentUpon>
@@ -334,6 +426,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="qulityManagement\MaterialManagement.resx">
+      <DependentUpon>MaterialManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\ProcessInquiry.resx">
+      <DependentUpon>ProcessInquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\QulityInquiry.resx">
+      <DependentUpon>QulityInquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\RegFaultyImage.resx">
+      <DependentUpon>RegFaultyImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\RegProcessCondition.resx">
+      <DependentUpon>RegProcessCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\RegQuality.resx">
+      <DependentUpon>RegQuality.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="System\IPAddressManager.resx">
       <DependentUpon>IPAddressManager.cs</DependentUpon>
     </EmbeddedResource>
@@ -377,6 +487,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MES_DB\MES_DB.csproj">
+      <Project>{c8436adf-2d7b-403d-ab76-b7d56f6b5a07}</Project>
+      <Name>MES_DB</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
