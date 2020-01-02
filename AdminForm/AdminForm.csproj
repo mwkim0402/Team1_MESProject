@@ -277,53 +277,17 @@
     <Compile Include="StandardInfo\FactoryInfo.Designer.cs">
       <DependentUpon>FactoryInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="StandardInfo\Faulty.cs">
+    <Compile Include="StandardInfo\ItemInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\Faulty.Designer.cs">
-      <DependentUpon>Faulty.cs</DependentUpon>
+    <Compile Include="StandardInfo\ItemInfo.Designer.cs">
+      <DependentUpon>ItemInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="StandardInfo\FaultyDetail.cs">
+    <Compile Include="StandardInfo\ItemClassiInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\FaultyDetail.Designer.cs">
-      <DependentUpon>FaultyDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StandardInfo\GvInformation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\GvInformation.Designer.cs">
-      <DependentUpon>GvInformation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StandardInfo\IPCInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\IPCInfo.Designer.cs">
-      <DependentUpon>IPCInfo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StandardInfo\NonOperation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\NonOperation.Designer.cs">
-      <DependentUpon>NonOperation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StandardInfo\NonOperationDetail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\NonOperationDetail.Designer.cs">
-      <DependentUpon>NonOperationDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StandardInfo\PackGradeDetail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\PackGradeDetail.Designer.cs">
-      <DependentUpon>PackGradeDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StandardInfo\ProcessConditionSet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\ProcessConditionSet.Designer.cs">
-      <DependentUpon>ProcessConditionSet.cs</DependentUpon>
+    <Compile Include="StandardInfo\ItemClassiInfo.Designer.cs">
+      <DependentUpon>ItemClassiInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="StandardInfo\ProcessInfo.cs">
       <SubType>Form</SubType>
@@ -484,6 +448,15 @@
     <EmbeddedResource Include="PerformManagement\NonOperationRegister.resx">
       <DependentUpon>NonOperationRegister.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\GVLookup.resx">
+      <DependentUpon>GVLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\GVStatus.resx">
+      <DependentUpon>GVStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformManagement\NonOperationRegister.resx">
+      <DependentUpon>NonOperationRegister.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PerformManagement\PerformSearch.resx">
       <DependentUpon>PerformSearch.cs</DependentUpon>
     </EmbeddedResource>
@@ -544,29 +517,11 @@
     <EmbeddedResource Include="StandardInfo\FactoryInfo.resx">
       <DependentUpon>FactoryInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\Faulty.resx">
-      <DependentUpon>Faulty.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\ItemInfo.resx">
+      <DependentUpon>ItemInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\FaultyDetail.resx">
-      <DependentUpon>FaultyDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\GvInformation.resx">
-      <DependentUpon>GvInformation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\IPCInfo.resx">
-      <DependentUpon>IPCInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\NonOperation.resx">
-      <DependentUpon>NonOperation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\NonOperationDetail.resx">
-      <DependentUpon>NonOperationDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\PackGradeDetail.resx">
-      <DependentUpon>PackGradeDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\ProcessConditionSet.resx">
-      <DependentUpon>ProcessConditionSet.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\ItemClassiInfo.resx">
+      <DependentUpon>ItemClassiInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\ProcessInfo.resx">
       <DependentUpon>ProcessInfo.cs</DependentUpon>
