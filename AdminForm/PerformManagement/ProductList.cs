@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace AdminForm.PerformManagement
 {
-    public partial class ProductList : Form
+    public partial class ProductList : dgvOne
     {
         public ProductList()
         {
