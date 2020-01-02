@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminForm
 {
-    public partial class PerformLookup : dgvOne
+    public partial class NoticeRegister : dgvOneWithInput
     {
-        public PerformLookup()
+        public NoticeRegister()
         {
             InitializeComponent();
         }

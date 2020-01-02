@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace AdminForm.qulityManagement
 {
-    public partial class PerformLookup : dgvOne
+    public partial class RegProcessCondition : Form
     {
-        public PerformLookup()
+        public RegProcessCondition()
         {
             InitializeComponent();
         }

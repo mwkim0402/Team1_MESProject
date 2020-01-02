@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminForm
 {
-    public partial class PerformLookup : dgvOne
+    public partial class UserGroupPowerSetting : dgvOne
     {
-        public PerformLookup()
+        public UserGroupPowerSetting()
         {
             InitializeComponent();
         }

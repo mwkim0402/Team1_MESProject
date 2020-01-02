@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_FormClose = new System.Windows.Forms.Button();
             this.btn_logout = new System.Windows.Forms.Button();
             this.lblChange = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_FormClose = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -49,15 +49,28 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1316, 95);
+            this.panel1.Size = new System.Drawing.Size(1330, 95);
             this.panel1.TabIndex = 9;
+            // 
+            // btn_FormClose
+            // 
+            this.btn_FormClose.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_FormClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_FormClose.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_FormClose.Location = new System.Drawing.Point(1202, 12);
+            this.btn_FormClose.Name = "btn_FormClose";
+            this.btn_FormClose.Size = new System.Drawing.Size(114, 42);
+            this.btn_FormClose.TabIndex = 12;
+            this.btn_FormClose.Text = "종료";
+            this.btn_FormClose.UseVisualStyleBackColor = false;
+            this.btn_FormClose.Click += new System.EventHandler(this.btn_FormClose_Click);
             // 
             // btn_logout
             // 
             this.btn_logout.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_logout.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_logout.Location = new System.Drawing.Point(1070, 12);
+            this.btn_logout.Location = new System.Drawing.Point(1082, 12);
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.Size = new System.Drawing.Size(114, 42);
             this.btn_logout.TabIndex = 11;
@@ -84,59 +97,46 @@
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 692);
+            this.panel2.Location = new System.Drawing.Point(0, 711);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1316, 60);
+            this.panel2.Size = new System.Drawing.Size(1330, 60);
             this.panel2.TabIndex = 10;
-            // 
-            // btn_FormClose
-            // 
-            this.btn_FormClose.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.btn_FormClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_FormClose.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_FormClose.Location = new System.Drawing.Point(1190, 12);
-            this.btn_FormClose.Name = "btn_FormClose";
-            this.btn_FormClose.Size = new System.Drawing.Size(114, 42);
-            this.btn_FormClose.TabIndex = 12;
-            this.btn_FormClose.Text = "종료";
-            this.btn_FormClose.UseVisualStyleBackColor = false;
-            this.btn_FormClose.Click += new System.EventHandler(this.btn_FormClose_Click);
-            // 
-            // label1
-            // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label1.Location = new System.Drawing.Point(12, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1008, 41);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "~공지사항~ qefsghfhdhd";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(1168, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 50);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Config";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(1026, 5);
+            this.button2.Location = new System.Drawing.Point(1040, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 50);
             this.button2.TabIndex = 14;
             this.button2.Text = "비가동 등록";
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Location = new System.Drawing.Point(1182, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 50);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Config";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.OliveDrab;
+            this.label1.Location = new System.Drawing.Point(12, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1018, 41);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "~공지사항~ qefsghfhdhd";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Main_P
             // 
@@ -144,7 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1316, 752);
+            this.ClientSize = new System.Drawing.Size(1330, 771);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
