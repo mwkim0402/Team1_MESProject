@@ -1,14 +1,11 @@
-﻿using System;
+﻿using MES_DB;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using MES_DB;
 
 namespace AdminForm
 {
@@ -23,23 +20,23 @@ namespace AdminForm
         public MainForm()
         {
             InitializeComponent();
-            this.tabControl1.DrawMode = TabDrawMode.OwnerDrawFixed;
+            this.tabControl2.DrawMode = TabDrawMode.OwnerDrawFixed;
 
 
-            this.tabControl1.ItemSize = new Size(120, 20);
-            this.tabControl1.SizeMode = TabSizeMode.Fixed;
+            this.tabControl2.ItemSize = new Size(120, 20);
+            this.tabControl2.SizeMode = TabSizeMode.Fixed;
 
             // Add the Handler to draw the Image on Tab Pages
-            tabControl1.DrawItem += tabControl1_DrawItem;
+            tabControl2.DrawItem += tabControl1_DrawItem;
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
+            SetButtonImage();
             MenuTreeService service = new MenuTreeService();
             menuList = service.GetAllMenu();
             CreateMenuTree("시스템관리");
             trvMenu.Visible = false;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             trvMenu.Visible = true;
@@ -139,14 +136,21 @@ namespace AdminForm
             trvMenu.ExpandAll();
         }
 
-
-        private void MainForm_Resize(object sender, EventArgs e)
+        private void SetButtonImage()
         {
-        }
-
-        private void toolStripButton9_Click(object sender, EventArgs e)
-        {
-
+            btnLogo.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\teamlogo.png");
+            btnCreate.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Report2_32x32.png");
+            btnSave.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Action_Save_New_32x32.png");
+            btnEdit.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Edit_32x32.png");
+            btnDelete.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\DeleteList_32x32.png");
+            foreach (var item in pnlMenu.Controls)
+            {
+                if (item is Button)
+                {
+                    Button btn = (Button)item;
+                    btn.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\buttonImage.png");
+                }
+            }
         }
 
         private void trvMenu_DoubleClick(object sender, EventArgs e)
@@ -154,20 +158,40 @@ namespace AdminForm
             if (trvMenu.SelectedNode.Text == "사용자그룹관리")
             {
                 LoadWorkReport frm = new LoadWorkReport();
-                frm.MdiParent = this;
+                //frm.MdiParent = this;
+                //frm.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Left;
+                //frm.Dock = DockStyle.Fill;
+                //frm.Show();
+
+                //CreateTabMenu("사용자그룹관리");
+                frm.TopLevel = false;
+                tabControl2.TabPages.Add("사용자그룹관리");
+                tabControl2.TabPages[tabControl2.TabPages.Count - 1].Controls.Add(frm);
+                tabControl2.SelectedTab = tabControl2.TabPages[tabControl2.TabPages.Count - 1];
                 frm.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Left;
                 frm.Dock = DockStyle.Fill;
                 frm.Show();
-                CreateTabMenu("사용자그룹관리");
+            }
+            else if (trvMenu.SelectedNode.Text == "사용자그룹별 권한 설정")
+            {
+                UserGroupManger frm = new UserGroupManger();
+                //frm.MdiParent = this;
+                //frm.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Left;
+                //frm.Dock = DockStyle.Fill;
+                //frm.Show();
+
+                //CreateTabMenu("사용자그룹관리");
+                frm.TopLevel = false;
+                tabControl2.TabPages.Add("사용자그룹별 권한 설정");
+                tabControl2.TabPages[tabControl2.TabPages.Count - 1].Controls.Add(frm);
+                tabControl2.SelectedTab = tabControl2.TabPages[tabControl2.TabPages.Count - 1];
+                frm.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Left;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
             }
         }
 
-        private void CreateTabMenu(string str)
-        {
-            TabPage tpFirst = new TabPage();
-            tpFirst.Text = str;
-            tabControl1.Controls.Add(tpFirst);
-        }
+        // 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
         {
             try
@@ -175,16 +199,16 @@ namespace AdminForm
                 // Close Image to draw
                 Image img = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Remove_16x16.png");
                 Rectangle r = e.Bounds;
-                r = this.tabControl1.GetTabRect(e.Index);
+                r = this.tabControl2.GetTabRect(e.Index);
                 r.Offset(2, 2);
 
                 Brush TitleBrush = new SolidBrush(Color.Black);
                 Font f = this.Font;
 
-                string title = this.tabControl1.TabPages[e.Index].Text;
+                string title = this.tabControl2.TabPages[e.Index].Text;
 
                 e.Graphics.DrawString(title, f, TitleBrush, new PointF(r.X, r.Y));
-                e.Graphics.DrawImage(img, new Point(r.X + (this.tabControl1.GetTabRect(e.Index).Width - _imageLocation.X-2), _imageLocation.Y-3));
+                e.Graphics.DrawImage(img, new Point(r.X + (this.tabControl2.GetTabRect(e.Index).Width - _imageLocation.X - 2), _imageLocation.Y - 3));
             }
             catch (Exception err) { System.Windows.Forms.MessageBox.Show(err.Message); }
         }
@@ -194,8 +218,8 @@ namespace AdminForm
             TabControl tc = (TabControl)sender;
             Point p = e.Location;
             int _tabWidth = 0;
-            _tabWidth = this.tabControl1.GetTabRect(tc.SelectedIndex).Width - (_imgHitArea.X);
-            Rectangle r = this.tabControl1.GetTabRect(tc.SelectedIndex);
+            _tabWidth = this.tabControl2.GetTabRect(tc.SelectedIndex).Width - (_imgHitArea.X);
+            Rectangle r = this.tabControl2.GetTabRect(tc.SelectedIndex);
             r.Offset(_tabWidth, _imgHitArea.Y);
             r.Width = 16;
             r.Height = 16;
@@ -204,8 +228,48 @@ namespace AdminForm
                 TabPage TabP = (TabPage)tc.TabPages[tc.SelectedIndex];
                 tc.TabPages.Remove(TabP);
             }
-            Form tempChild = this.ActiveMdiChild;
-            tempChild.Close();
+            // Form tempChild = this.ActiveMdiChild;
+            // tempChild.Close();
         }
+
+        #region 폼동적생성
+        /// <summary>
+        /// 트리뷰 자식메뉴클릭시 폼생성
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        //private void TvMenu_AfterSelect(object sender, TreeViewEventArgs e)
+        //{
+        //    MenuTree_Master_VO parentcode = menulist.Find(item => item.Screen_Name == e.Node.Text);
+
+        //    if (parentcode.Parent_Screen_Code != null) //부모코드에 널값이있는 메뉴를 제외하고
+        //    {
+        //        string form = parentcode.Screen_Code;
+        //        newForm(form);
+        //    }
+
+        //}
+        /// <summary>
+        /// 새로운 폼 생성
+        /// </summary>
+        /// <param name="formName">폼이름</param>
+        //private void newForm(string formName)
+        //{
+        //    try
+        //    {
+        //        string nameSpace = "Axxen"; //네임스페이스 명
+        //        Assembly cuasm = Assembly.GetExecutingAssembly();
+        //        //string Format 의 따옴표와 마침표 주의!!
+        //        Form frm = (Form)cuasm.CreateInstance(string.Format("{0}.{1}", nameSpace, formName));
+        //        frm.MdiParent = this;
+        //        frm.WindowState = FormWindowState.Maximized;
+        //        frm.Show();
+        //    }
+        //    catch (Exception err)
+        //    {
+
+        //        MessageBox.Show(err.ToString());
+        //    }
+        #endregion
     }
 }
