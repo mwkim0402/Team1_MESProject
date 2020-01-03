@@ -15,6 +15,7 @@ namespace AdminForm
         public WorkReportParent()
         {
             InitializeComponent();
+            
         }
     }
 }

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace AdminForm.PerformManagement
 {
-    public partial class EndPallet : Form
+    public partial class EndPallet : dgvTwo
     {
         public EndPallet()
         {

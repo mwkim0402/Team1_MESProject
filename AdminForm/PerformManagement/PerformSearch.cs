@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace AdminForm.PerformManagement
 {
-    public partial class PerformSearch : Form
+    public partial class PerformSearch : dgvOne
     {
         public PerformSearch()
         {
