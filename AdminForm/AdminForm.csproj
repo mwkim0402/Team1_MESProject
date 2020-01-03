@@ -261,18 +261,6 @@
     <Compile Include="qulityManagement\RegQuality.Designer.cs">
       <DependentUpon>RegQuality.cs</DependentUpon>
     </Compile>
-    <Compile Include="StandardInfo\EtherIOChannelSet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\EtherIOChannelSet.Designer.cs" />
-    <Compile Include="StandardInfo\EtherIOInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\EtherIOInfo.Designer.cs" />
-    <Compile Include="StandardInfo\FactoryInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\FactoryInfo.Designer.cs" />
     <Compile Include="StandardInfo\Faulty.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -297,14 +285,6 @@
     <Compile Include="StandardInfo\IPCInfo.Designer.cs">
       <DependentUpon>IPCInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="StandardInfo\ItemClassiInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\ItemClassiInfo.Designer.cs" />
-    <Compile Include="StandardInfo\ItemInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\ItemInfo.Designer.cs" />
     <Compile Include="StandardInfo\NonOperation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -329,22 +309,18 @@
     <Compile Include="StandardInfo\ProcessConditionSet.Designer.cs">
       <DependentUpon>ProcessConditionSet.cs</DependentUpon>
     </Compile>
-    <Compile Include="StandardInfo\ProcessInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\ProcessInfo.Designer.cs" />
-    <Compile Include="StandardInfo\QulitySizeSet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StandardInfo\QulitySizeSet.Designer.cs" />
     <Compile Include="StandardInfo\UserAssort.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\UserAssort.Designer.cs" />
-    <Compile Include="StandardInfo\UserDetailAssort.cs">
+    <Compile Include="StandardInfo\UserAssort.Designer.cs">
+      <DependentUpon>UserAssort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\UserAssortDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\UserDetailAssort.Designer.cs" />
+    <Compile Include="StandardInfo\UserAssortDetail.Designer.cs">
+      <DependentUpon>UserAssortDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="System\IPAddressManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -554,6 +530,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\ProcessConditionSet.resx">
       <DependentUpon>ProcessConditionSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\UserAssort.resx">
+      <DependentUpon>UserAssort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\UserAssortDetail.resx">
+      <DependentUpon>UserAssortDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\IPAddressManager.resx">
       <DependentUpon>IPAddressManager.cs</DependentUpon>

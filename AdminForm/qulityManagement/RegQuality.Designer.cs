@@ -30,10 +30,8 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.fIndCategory2 = new AdminForm.FIndCategory();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.fIndCategory1 = new AdminForm.FIndCategory();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -50,6 +48,8 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.fIndCategory2 = new AdminForm.FIndCategory();
+            this.fIndCategory1 = new AdminForm.FIndCategory();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -95,13 +95,6 @@
             this.panel2.Size = new System.Drawing.Size(1132, 55);
             this.panel2.TabIndex = 12;
             // 
-            // fIndCategory2
-            // 
-            this.fIndCategory2.Location = new System.Drawing.Point(764, 19);
-            this.fIndCategory2.Name = "fIndCategory2";
-            this.fIndCategory2.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory2.TabIndex = 5;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -121,13 +114,6 @@
             this.label3.Size = new System.Drawing.Size(50, 16);
             this.label3.TabIndex = 1;
             this.label3.Text = "공정 :";
-            // 
-            // fIndCategory1
-            // 
-            this.fIndCategory1.Location = new System.Drawing.Point(489, 19);
-            this.fIndCategory1.Name = "fIndCategory1";
-            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory1.TabIndex = 1;
             // 
             // label2
             // 
@@ -291,6 +277,20 @@
             this.button2.Text = "측정회차 제거";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // fIndCategory2
+            // 
+            this.fIndCategory2.Location = new System.Drawing.Point(764, 19);
+            this.fIndCategory2.Name = "fIndCategory2";
+            this.fIndCategory2.Size = new System.Drawing.Size(190, 27);
+            this.fIndCategory2.TabIndex = 5;
+            // 
+            // fIndCategory1
+            // 
+            this.fIndCategory1.Location = new System.Drawing.Point(489, 19);
+            this.fIndCategory1.Name = "fIndCategory1";
+            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
+            this.fIndCategory1.TabIndex = 1;
+            // 
             // RegQuality
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -298,7 +298,12 @@
             this.ClientSize = new System.Drawing.Size(1156, 604);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "RegQuality";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "RegQuality";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
