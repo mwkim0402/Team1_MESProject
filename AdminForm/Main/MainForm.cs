@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace AdminForm
@@ -36,7 +37,6 @@ namespace AdminForm
             CreateMenuTree("시스템관리");
             trvMenu.Visible = false;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             trvMenu.Visible = true;
@@ -139,7 +139,7 @@ namespace AdminForm
         private void SetButtonImage()
         {
             btnLogo.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\teamlogo.png");
-            btnCreate.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Report2_32x32.png");    
+            btnCreate.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Report2_32x32.png");
             btnSave.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Action_Save_New_32x32.png");
             btnEdit.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\Edit_32x32.png");
             btnDelete.Image = new Bitmap(System.Windows.Forms.Application.StartupPath + @"\image\DeleteList_32x32.png");
@@ -162,7 +162,7 @@ namespace AdminForm
                 //frm.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Left;
                 //frm.Dock = DockStyle.Fill;
                 //frm.Show();
-                
+
                 //CreateTabMenu("사용자그룹관리");
                 frm.TopLevel = false;
                 tabControl2.TabPages.Add("사용자그룹관리");
@@ -191,12 +191,7 @@ namespace AdminForm
             }
         }
 
-        private void CreateTabMenu(string str)
-        {
-            TabPage tpFirst = new TabPage();
-            tpFirst.Text = str;
-            //tabControl1.Controls.Add(tpFirst);
-        }
+        // 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
         {
             try
@@ -233,8 +228,48 @@ namespace AdminForm
                 TabPage TabP = (TabPage)tc.TabPages[tc.SelectedIndex];
                 tc.TabPages.Remove(TabP);
             }
-           // Form tempChild = this.ActiveMdiChild;
-           // tempChild.Close();
+            // Form tempChild = this.ActiveMdiChild;
+            // tempChild.Close();
         }
+
+        #region 폼동적생성
+        /// <summary>
+        /// 트리뷰 자식메뉴클릭시 폼생성
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        //private void TvMenu_AfterSelect(object sender, TreeViewEventArgs e)
+        //{
+        //    MenuTree_Master_VO parentcode = menulist.Find(item => item.Screen_Name == e.Node.Text);
+
+        //    if (parentcode.Parent_Screen_Code != null) //부모코드에 널값이있는 메뉴를 제외하고
+        //    {
+        //        string form = parentcode.Screen_Code;
+        //        newForm(form);
+        //    }
+
+        //}
+        /// <summary>
+        /// 새로운 폼 생성
+        /// </summary>
+        /// <param name="formName">폼이름</param>
+        //private void newForm(string formName)
+        //{
+        //    try
+        //    {
+        //        string nameSpace = "Axxen"; //네임스페이스 명
+        //        Assembly cuasm = Assembly.GetExecutingAssembly();
+        //        //string Format 의 따옴표와 마침표 주의!!
+        //        Form frm = (Form)cuasm.CreateInstance(string.Format("{0}.{1}", nameSpace, formName));
+        //        frm.MdiParent = this;
+        //        frm.WindowState = FormWindowState.Maximized;
+        //        frm.Show();
+        //    }
+        //    catch (Exception err)
+        //    {
+
+        //        MessageBox.Show(err.ToString());
+        //    }
+        #endregion
     }
 }

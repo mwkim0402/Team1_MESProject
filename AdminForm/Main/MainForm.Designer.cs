@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btnLogo = new System.Windows.Forms.ToolStripButton();
             this.btnSave = new System.Windows.Forms.ToolStripButton();
@@ -66,7 +67,7 @@
             this.toolStripLabel1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1280, 58);
+            this.toolStrip1.Size = new System.Drawing.Size(1280, 86);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -129,12 +130,12 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 58);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 86);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(81, 55);
+            this.toolStripLabel1.Size = new System.Drawing.Size(81, 83);
             this.toolStripLabel1.Text = "자식 toolStrip";
             // 
             // pnlMenu
@@ -148,9 +149,9 @@
             this.pnlMenu.Controls.Add(this.button2);
             this.pnlMenu.Controls.Add(this.button1);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlMenu.Location = new System.Drawing.Point(0, 58);
+            this.pnlMenu.Location = new System.Drawing.Point(0, 86);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(190, 611);
+            this.pnlMenu.Size = new System.Drawing.Size(190, 583);
             this.pnlMenu.TabIndex = 2;
             // 
             // button7
@@ -243,7 +244,7 @@
             // 
             this.panel1.AutoSize = true;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(190, 58);
+            this.panel1.Location = new System.Drawing.Point(190, 86);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1090, 0);
             this.panel1.TabIndex = 4;
@@ -251,10 +252,10 @@
             // tabControl2
             // 
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl2.Location = new System.Drawing.Point(190, 58);
+            this.tabControl2.Location = new System.Drawing.Point(190, 86);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1090, 611);
+            this.tabControl2.Size = new System.Drawing.Size(1090, 583);
             this.tabControl2.TabIndex = 6;
             this.tabControl2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseClick);
             // 
@@ -269,9 +270,10 @@
             this.Controls.Add(this.pnlMenu);
             this.Controls.Add(this.toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "MES_Solution";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
