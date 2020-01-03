@@ -3,19 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AdminForm.qulityManagement
 {
-    public partial class MaterialManagement : dgvOne
+    public partial class Form1 : AdminForm.dgvOne
     {
-        public MaterialManagement()
+        public Form1()
         {
             InitializeComponent();
         }
-
     }
 }

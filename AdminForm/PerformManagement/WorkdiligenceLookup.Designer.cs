@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnDown = new System.Windows.Forms.Button();
             this.fcFactory = new AdminForm.FIndCategory();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dtpEnd = new System.Windows.Forms.DateTimePicker();
             this.dtpStart = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnDown = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +53,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1128, 67);
             this.panel1.TabIndex = 4;
+            // 
+            // btnDown
+            // 
+            this.btnDown.Location = new System.Drawing.Point(887, 25);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(159, 23);
+            this.btnDown.TabIndex = 6;
+            this.btnDown.Text = "ERP Interface";
+            this.btnDown.UseVisualStyleBackColor = true;
             // 
             // fcFactory
             // 
@@ -107,22 +116,18 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "근무일자";
             // 
-            // btnDown
-            // 
-            this.btnDown.Location = new System.Drawing.Point(887, 25);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(159, 23);
-            this.btnDown.TabIndex = 6;
-            this.btnDown.Text = "ERP Interface";
-            this.btnDown.UseVisualStyleBackColor = true;
-            // 
             // WorkdiligenceLookup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1156, 604);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "WorkdiligenceLookup";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "WorkdiligenceLookup";
             this.Controls.SetChildIndex(this.panel1, 0);
             this.panel1.ResumeLayout(false);
