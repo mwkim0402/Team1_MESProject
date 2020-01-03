@@ -261,6 +261,24 @@
     <Compile Include="qulityManagement\RegQuality.Designer.cs">
       <DependentUpon>RegQuality.cs</DependentUpon>
     </Compile>
+    <Compile Include="StandardInfo\EtherIOChannelSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\EtherIOChannelSet.Designer.cs">
+      <DependentUpon>EtherIOChannelSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\EtherIOInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\EtherIOInfo.Designer.cs">
+      <DependentUpon>EtherIOInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\FactoryInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\FactoryInfo.Designer.cs">
+      <DependentUpon>FactoryInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="StandardInfo\Faulty.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -285,6 +303,18 @@
     <Compile Include="StandardInfo\IPCInfo.Designer.cs">
       <DependentUpon>IPCInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="StandardInfo\ItemClassInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\ItemClassInfo.Designer.cs">
+      <DependentUpon>ItemClassInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\ItemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\ItemInfo.Designer.cs">
+      <DependentUpon>ItemInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="StandardInfo\NonOperation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -308,6 +338,18 @@
     </Compile>
     <Compile Include="StandardInfo\ProcessConditionSet.Designer.cs">
       <DependentUpon>ProcessConditionSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\ProcessInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\ProcessInfo.Designer.cs">
+      <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\QualitySizeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\QualitySizeSet.Designer.cs">
+      <DependentUpon>QualitySizeSet.cs</DependentUpon>
     </Compile>
     <Compile Include="StandardInfo\UserAssort.cs">
       <SubType>Form</SubType>
@@ -507,6 +549,15 @@
     <EmbeddedResource Include="qulityManagement\RegQuality.resx">
       <DependentUpon>RegQuality.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\EtherIOChannelSet.resx">
+      <DependentUpon>EtherIOChannelSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\EtherIOInfo.resx">
+      <DependentUpon>EtherIOInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\FactoryInfo.resx">
+      <DependentUpon>FactoryInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\Faulty.resx">
       <DependentUpon>Faulty.cs</DependentUpon>
     </EmbeddedResource>
@@ -519,6 +570,12 @@
     <EmbeddedResource Include="StandardInfo\IPCInfo.resx">
       <DependentUpon>IPCInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\ItemClassInfo.resx">
+      <DependentUpon>ItemClassInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\ItemInfo.resx">
+      <DependentUpon>ItemInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\NonOperation.resx">
       <DependentUpon>NonOperation.cs</DependentUpon>
     </EmbeddedResource>
@@ -530,6 +587,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\ProcessConditionSet.resx">
       <DependentUpon>ProcessConditionSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\ProcessInfo.resx">
+      <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardInfo\QualitySizeSet.resx">
+      <DependentUpon>QualitySizeSet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\UserAssort.resx">
       <DependentUpon>UserAssort.cs</DependentUpon>

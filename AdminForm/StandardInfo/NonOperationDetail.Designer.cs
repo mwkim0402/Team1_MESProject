@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.fIndCategory1 = new AdminForm.FIndCategory();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -46,6 +46,13 @@
             this.panel2.Size = new System.Drawing.Size(1132, 67);
             this.panel2.TabIndex = 14;
             // 
+            // fIndCategory1
+            // 
+            this.fIndCategory1.Location = new System.Drawing.Point(154, 23);
+            this.fIndCategory1.Name = "fIndCategory1";
+            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
+            this.fIndCategory1.TabIndex = 9;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -56,20 +63,18 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "비가동 대분류";
             // 
-            // fIndCategory1
-            // 
-            this.fIndCategory1.Location = new System.Drawing.Point(154, 23);
-            this.fIndCategory1.Name = "fIndCategory1";
-            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory1.TabIndex = 9;
-            // 
             // NonOperationDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1156, 604);
             this.Controls.Add(this.panel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "NonOperationDetail";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "NonOperationDetail";
             this.Controls.SetChildIndex(this.tabControl1, 0);
             this.Controls.SetChildIndex(this.panel1, 0);
