@@ -29,8 +29,7 @@ namespace FieldOperationForm
         {
 
         }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void btn_Worker_Click(object sender, EventArgs e)
         {
             workerAllocation frm = new workerAllocation(main);
             frm.BringToFront();
@@ -38,10 +37,9 @@ namespace FieldOperationForm
             frm.Dock = DockStyle.Fill;
             frm.Show();
             main.lblChange.Text = "작업자할당";
-           
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void btn_Process_Click(object sender, EventArgs e)
         {
             ProcessCondition frm = new ProcessCondition(main);
             frm.BringToFront();
@@ -49,6 +47,27 @@ namespace FieldOperationForm
             frm.Dock = DockStyle.Fill;
             frm.Show();
             main.lblChange.Text = "공정조건 등록";
+        }
+
+        private void btn_Quality_Click(object sender, EventArgs e)
+        {
+            QualityMeasurement frm = new QualityMeasurement(main);
+            frm.BringToFront();
+            frm.MdiParent = main;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            main.lblChange.Text = "품질 측정값 등록";
+        }
+
+        private void btn_JobOrder_Click(object sender, EventArgs e)
+        {
+         
+            LoadJobOrder frm = new LoadJobOrder(main);
+            frm.BringToFront();
+            frm.MdiParent = main;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            main.lblChange.Text = "적재 작업지시 생성";
         }
     }
 }
