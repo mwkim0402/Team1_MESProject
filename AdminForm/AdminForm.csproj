@@ -225,42 +225,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="qulityManagement\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="qulityManagement\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="qulityManagement\Material.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="qulityManagement\Material.Designer.cs">
-      <DependentUpon>Material.cs</DependentUpon>
-    </Compile>
-    <Compile Include="qulityManagement\MaterialManagement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="qulityManagement\MaterialManagement.Designer.cs" />
-    <Compile Include="qulityManagement\ProcessInquiry.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="qulityManagement\ProcessInquiry.Designer.cs" />
-    <Compile Include="qulityManagement\QulityInquiry.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="qulityManagement\QulityInquiry.Designer.cs" />
     <Compile Include="qulityManagement\RegFaultyImage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="qulityManagement\RegFaultyImage.Designer.cs" />
-    <Compile Include="qulityManagement\RegProcessCondition.cs">
-      <SubType>Form</SubType>
+    <Compile Include="qulityManagement\RegFaultyImage.Designer.cs">
+      <DependentUpon>RegFaultyImage.cs</DependentUpon>
     </Compile>
-    <Compile Include="qulityManagement\RegProcessCondition.Designer.cs" />
-    <Compile Include="qulityManagement\RegQuality.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="qulityManagement\RegQuality.Designer.cs" />
     <Compile Include="StandardInfo\EtherIOChannelSet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -513,17 +483,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="qulityManagement\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\Material.resx">
-      <DependentUpon>Material.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\MaterialManagement.resx">
-      <DependentUpon>MaterialManagement.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\ProcessInquiry.resx">
-      <DependentUpon>ProcessInquiry.cs</DependentUpon>
+    <EmbeddedResource Include="qulityManagement\RegFaultyImage.resx">
+      <DependentUpon>RegFaultyImage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StandardInfo\Faulty.resx">
       <DependentUpon>Faulty.cs</DependentUpon>
@@ -604,5 +565,6 @@
       <Name>MES_DB</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
