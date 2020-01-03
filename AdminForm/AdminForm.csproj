@@ -231,6 +231,12 @@
     <Compile Include="qulityManagement\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="qulityManagement\Material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qulityManagement\Material.Designer.cs">
+      <DependentUpon>Material.cs</DependentUpon>
+    </Compile>
     <Compile Include="qulityManagement\MaterialManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -509,6 +515,9 @@
     </Compile>
     <EmbeddedResource Include="qulityManagement\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qulityManagement\Material.resx">
+      <DependentUpon>Material.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="qulityManagement\MaterialManagement.resx">
       <DependentUpon>MaterialManagement.cs</DependentUpon>
