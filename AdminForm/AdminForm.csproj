@@ -33,6 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -65,10 +67,10 @@
     <Compile Include="JobOrder\Order.designer.cs">
       <DependentUpon>Order.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm\MainForm.cs">
+    <Compile Include="Main\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm\MainForm.Designer.cs">
+    <Compile Include="Main\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Mold\MoldInformationRegister.cs">
@@ -226,99 +228,111 @@
     <Compile Include="qulityManagement\MaterialManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="qulityManagement\MaterialManagement.Designer.cs">
-      <DependentUpon>MaterialManagement.cs</DependentUpon>
-    </Compile>
+    <Compile Include="qulityManagement\MaterialManagement.Designer.cs" />
     <Compile Include="qulityManagement\ProcessInquiry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="qulityManagement\ProcessInquiry.Designer.cs">
-      <DependentUpon>ProcessInquiry.cs</DependentUpon>
-    </Compile>
+    <Compile Include="qulityManagement\ProcessInquiry.Designer.cs" />
     <Compile Include="qulityManagement\QulityInquiry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="qulityManagement\QulityInquiry.Designer.cs">
-      <DependentUpon>QulityInquiry.cs</DependentUpon>
-    </Compile>
+    <Compile Include="qulityManagement\QulityInquiry.Designer.cs" />
     <Compile Include="qulityManagement\RegFaultyImage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="qulityManagement\RegFaultyImage.Designer.cs">
-      <DependentUpon>RegFaultyImage.cs</DependentUpon>
-    </Compile>
+    <Compile Include="qulityManagement\RegFaultyImage.Designer.cs" />
     <Compile Include="qulityManagement\RegProcessCondition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="qulityManagement\RegProcessCondition.Designer.cs">
-      <DependentUpon>RegProcessCondition.cs</DependentUpon>
-    </Compile>
+    <Compile Include="qulityManagement\RegProcessCondition.Designer.cs" />
     <Compile Include="qulityManagement\RegQuality.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="qulityManagement\RegQuality.Designer.cs">
-      <DependentUpon>RegQuality.cs</DependentUpon>
-    </Compile>
+    <Compile Include="qulityManagement\RegQuality.Designer.cs" />
     <Compile Include="StandardInfo\EtherIOChannelSet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\EtherIOChannelSet.Designer.cs">
-      <DependentUpon>EtherIOChannelSet.cs</DependentUpon>
-    </Compile>
+    <Compile Include="StandardInfo\EtherIOChannelSet.Designer.cs" />
     <Compile Include="StandardInfo\EtherIOInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\EtherIOInfo.Designer.cs">
-      <DependentUpon>EtherIOInfo.cs</DependentUpon>
-    </Compile>
+    <Compile Include="StandardInfo\EtherIOInfo.Designer.cs" />
     <Compile Include="StandardInfo\FactoryInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\FactoryInfo.Designer.cs">
-      <DependentUpon>FactoryInfo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StandardInfo\ItemInfo.cs">
+    <Compile Include="StandardInfo\FactoryInfo.Designer.cs" />
+    <Compile Include="StandardInfo\Faulty.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\ItemInfo.Designer.cs">
-      <DependentUpon>ItemInfo.cs</DependentUpon>
+    <Compile Include="StandardInfo\Faulty.Designer.cs">
+      <DependentUpon>Faulty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\FaultyDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\FaultyDetail.Designer.cs">
+      <DependentUpon>FaultyDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\GvInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\GvInformation.Designer.cs">
+      <DependentUpon>GvInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\IPCInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\IPCInfo.Designer.cs">
+      <DependentUpon>IPCInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="StandardInfo\ItemClassiInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\ItemClassiInfo.Designer.cs">
-      <DependentUpon>ItemClassiInfo.cs</DependentUpon>
+    <Compile Include="StandardInfo\ItemClassiInfo.Designer.cs" />
+    <Compile Include="StandardInfo\ItemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\ItemInfo.Designer.cs" />
+    <Compile Include="StandardInfo\NonOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\NonOperation.Designer.cs">
+      <DependentUpon>NonOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\NonOperationDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\NonOperationDetail.Designer.cs">
+      <DependentUpon>NonOperationDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\PackGradeDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\PackGradeDetail.Designer.cs">
+      <DependentUpon>PackGradeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandardInfo\ProcessConditionSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandardInfo\ProcessConditionSet.Designer.cs">
+      <DependentUpon>ProcessConditionSet.cs</DependentUpon>
     </Compile>
     <Compile Include="StandardInfo\ProcessInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\ProcessInfo.Designer.cs">
-      <DependentUpon>ProcessInfo.cs</DependentUpon>
-    </Compile>
+    <Compile Include="StandardInfo\ProcessInfo.Designer.cs" />
     <Compile Include="StandardInfo\QulitySizeSet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\QulitySizeSet.Designer.cs">
-      <DependentUpon>QulitySizeSet.cs</DependentUpon>
-    </Compile>
+    <Compile Include="StandardInfo\QulitySizeSet.Designer.cs" />
     <Compile Include="StandardInfo\UserAssort.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\UserAssort.Designer.cs">
-      <DependentUpon>UserAssort.cs</DependentUpon>
-    </Compile>
+    <Compile Include="StandardInfo\UserAssort.Designer.cs" />
     <Compile Include="StandardInfo\UserDetailAssort.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StandardInfo\UserDetailAssort.Designer.cs">
-      <DependentUpon>UserDetailAssort.cs</DependentUpon>
-    </Compile>
-    <Compile Include="System\MenuManagement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="System\MenuManagement.Designer.cs">
-      <DependentUpon>MenuManagement.cs</DependentUpon>
-    </Compile>
+    <Compile Include="StandardInfo\UserDetailAssort.Designer.cs" />
     <Compile Include="System\IPAddressManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -394,7 +408,7 @@
     <EmbeddedResource Include="JobOrder\Order.resx">
       <DependentUpon>Order.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm\MainForm.resx">
+    <EmbeddedResource Include="Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mold\MoldInformationRegister.resx">
@@ -436,21 +450,6 @@
     <EmbeddedResource Include="PerformManagement\EndPallet.resx">
       <DependentUpon>EndPallet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GASUsingRegister.resx">
-      <DependentUpon>GASUsingRegister.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GVLookup.resx">
-      <DependentUpon>GVLookup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GVStatus.resx">
-      <DependentUpon>GVStatus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\NonOperationRegister.resx">
-      <DependentUpon>NonOperationRegister.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PerformManagement\GVLookup.resx">
-      <DependentUpon>GVLookup.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PerformManagement\GVStatus.resx">
       <DependentUpon>GVStatus.cs</DependentUpon>
     </EmbeddedResource>
@@ -490,53 +489,29 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="qulityManagement\MaterialManagement.resx">
-      <DependentUpon>MaterialManagement.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\Faulty.resx">
+      <DependentUpon>Faulty.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\ProcessInquiry.resx">
-      <DependentUpon>ProcessInquiry.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\FaultyDetail.resx">
+      <DependentUpon>FaultyDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\QulityInquiry.resx">
-      <DependentUpon>QulityInquiry.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\GvInformation.resx">
+      <DependentUpon>GvInformation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\RegFaultyImage.resx">
-      <DependentUpon>RegFaultyImage.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\IPCInfo.resx">
+      <DependentUpon>IPCInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\RegProcessCondition.resx">
-      <DependentUpon>RegProcessCondition.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\NonOperation.resx">
+      <DependentUpon>NonOperation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="qulityManagement\RegQuality.resx">
-      <DependentUpon>RegQuality.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\NonOperationDetail.resx">
+      <DependentUpon>NonOperationDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\EtherIOChannelSet.resx">
-      <DependentUpon>EtherIOChannelSet.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\PackGradeDetail.resx">
+      <DependentUpon>PackGradeDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\EtherIOInfo.resx">
-      <DependentUpon>EtherIOInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\FactoryInfo.resx">
-      <DependentUpon>FactoryInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\ItemInfo.resx">
-      <DependentUpon>ItemInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\ItemClassiInfo.resx">
-      <DependentUpon>ItemClassiInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\ProcessInfo.resx">
-      <DependentUpon>ProcessInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\QulitySizeSet.resx">
-      <DependentUpon>QulitySizeSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\UserAssort.resx">
-      <DependentUpon>UserAssort.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StandardInfo\UserDetailAssort.resx">
-      <DependentUpon>UserDetailAssort.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="System\MenuManagement.resx">
-      <DependentUpon>MenuManagement.cs</DependentUpon>
+    <EmbeddedResource Include="StandardInfo\ProcessConditionSet.resx">
+      <DependentUpon>ProcessConditionSet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\IPAddressManager.resx">
       <DependentUpon>IPAddressManager.cs</DependentUpon>
@@ -585,15 +560,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FieldOperationForm\FieldOperationForm.csproj">
-      <Project>{845f5b3f-2317-4332-a594-1eb7001bbd01}</Project>
-      <Name>FieldOperationForm</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MES_DB\MES_DB.csproj">
       <Project>{c8436adf-2d7b-403d-ab76-b7d56f6b5a07}</Project>
       <Name>MES_DB</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

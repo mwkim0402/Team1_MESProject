@@ -1,14 +1,10 @@
-﻿using System;
+﻿using MES_DB;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Forms;
-using MES_DB;
 
 namespace AdminForm
 {
@@ -184,7 +180,7 @@ namespace AdminForm
                 string title = this.tabControl1.TabPages[e.Index].Text;
 
                 e.Graphics.DrawString(title, f, TitleBrush, new PointF(r.X, r.Y));
-                e.Graphics.DrawImage(img, new Point(r.X + (this.tabControl1.GetTabRect(e.Index).Width - _imageLocation.X-2), _imageLocation.Y-3));
+                e.Graphics.DrawImage(img, new Point(r.X + (this.tabControl1.GetTabRect(e.Index).Width - _imageLocation.X - 2), _imageLocation.Y - 3));
             }
             catch (Exception err) { System.Windows.Forms.MessageBox.Show(err.Message); }
         }
