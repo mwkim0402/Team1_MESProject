@@ -29,50 +29,50 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtFacCode = new System.Windows.Forms.TextBox();
+            this.cmbUsable = new System.Windows.Forms.ComboBox();
+            this.txtFacName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.gbUsable = new System.Windows.Forms.GroupBox();
+            this.rbUse = new System.Windows.Forms.RadioButton();
+            this.rbNoUse = new System.Windows.Forms.RadioButton();
             this.label21 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFacCodeInput = new System.Windows.Forms.TextBox();
+            this.txtPS = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtFacNameInput = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtFacGroupInput = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gbUsable.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.txtFacGroupInput);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.groupBox1);
+            this.panel1.Controls.Add(this.txtFacNameInput);
+            this.panel1.Controls.Add(this.btnSave);
+            this.panel1.Controls.Add(this.gbUsable);
             this.panel1.Controls.Add(this.label23);
             this.panel1.Controls.Add(this.label21);
-            this.panel1.Controls.Add(this.textBox12);
-            this.panel1.Controls.Add(this.textBox14);
+            this.panel1.Controls.Add(this.txtPS);
+            this.panel1.Controls.Add(this.txtFacCodeInput);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.txtFacCode);
+            this.panel2.Controls.Add(this.cmbUsable);
+            this.panel2.Controls.Add(this.txtFacName);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label1);
@@ -81,20 +81,27 @@
             this.panel2.Size = new System.Drawing.Size(1128, 67);
             this.panel2.TabIndex = 4;
             // 
-            // comboBox1
+            // txtFacCode
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(622, 29);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 20);
-            this.comboBox1.TabIndex = 17;
+            this.txtFacCode.Location = new System.Drawing.Point(108, 26);
+            this.txtFacCode.Name = "txtFacCode";
+            this.txtFacCode.Size = new System.Drawing.Size(141, 21);
+            this.txtFacCode.TabIndex = 18;
             // 
-            // textBox3
+            // cmbUsable
             // 
-            this.textBox3.Location = new System.Drawing.Point(349, 27);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 21);
-            this.textBox3.TabIndex = 16;
+            this.cmbUsable.FormattingEnabled = true;
+            this.cmbUsable.Location = new System.Drawing.Point(622, 29);
+            this.cmbUsable.Name = "cmbUsable";
+            this.cmbUsable.Size = new System.Drawing.Size(121, 20);
+            this.cmbUsable.TabIndex = 17;
+            // 
+            // txtFacName
+            // 
+            this.txtFacName.Location = new System.Drawing.Point(349, 27);
+            this.txtFacName.Name = "txtFacName";
+            this.txtFacName.Size = new System.Drawing.Size(141, 21);
+            this.txtFacName.TabIndex = 16;
             // 
             // label5
             // 
@@ -126,41 +133,41 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "공정코드";
             // 
-            // groupBox1
+            // gbUsable
             // 
-            this.groupBox1.Controls.Add(this.radioButton9);
-            this.groupBox1.Controls.Add(this.radioButton10);
-            this.groupBox1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox1.Location = new System.Drawing.Point(832, 10);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 64);
-            this.groupBox1.TabIndex = 96;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "사용여부";
+            this.gbUsable.Controls.Add(this.rbUse);
+            this.gbUsable.Controls.Add(this.rbNoUse);
+            this.gbUsable.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.gbUsable.Location = new System.Drawing.Point(832, 10);
+            this.gbUsable.Name = "gbUsable";
+            this.gbUsable.Size = new System.Drawing.Size(200, 64);
+            this.gbUsable.TabIndex = 96;
+            this.gbUsable.TabStop = false;
+            this.gbUsable.Text = "사용여부";
             // 
-            // radioButton9
+            // rbUse
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton9.Location = new System.Drawing.Point(43, 28);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(42, 20);
-            this.radioButton9.TabIndex = 77;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "유";
-            this.radioButton9.UseVisualStyleBackColor = false;
+            this.rbUse.AutoSize = true;
+            this.rbUse.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.rbUse.Location = new System.Drawing.Point(43, 28);
+            this.rbUse.Name = "rbUse";
+            this.rbUse.Size = new System.Drawing.Size(42, 20);
+            this.rbUse.TabIndex = 77;
+            this.rbUse.TabStop = true;
+            this.rbUse.Text = "유";
+            this.rbUse.UseVisualStyleBackColor = false;
             // 
-            // radioButton10
+            // rbNoUse
             // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.radioButton10.Location = new System.Drawing.Point(111, 28);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(42, 20);
-            this.radioButton10.TabIndex = 79;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "무";
-            this.radioButton10.UseVisualStyleBackColor = false;
+            this.rbNoUse.AutoSize = true;
+            this.rbNoUse.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.rbNoUse.Location = new System.Drawing.Point(111, 28);
+            this.rbNoUse.Name = "rbNoUse";
+            this.rbNoUse.Size = new System.Drawing.Size(42, 20);
+            this.rbNoUse.TabIndex = 79;
+            this.rbNoUse.TabStop = true;
+            this.rbNoUse.Text = "무";
+            this.rbNoUse.UseVisualStyleBackColor = false;
             // 
             // label21
             // 
@@ -184,36 +191,29 @@
             this.label23.TabIndex = 89;
             this.label23.Text = "공정코드";
             // 
-            // textBox14
+            // txtFacCodeInput
             // 
-            this.textBox14.Location = new System.Drawing.Point(176, 13);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(152, 21);
-            this.textBox14.TabIndex = 92;
+            this.txtFacCodeInput.Location = new System.Drawing.Point(176, 13);
+            this.txtFacCodeInput.Name = "txtFacCodeInput";
+            this.txtFacCodeInput.Size = new System.Drawing.Size(152, 21);
+            this.txtFacCodeInput.TabIndex = 92;
             // 
-            // textBox12
+            // txtPS
             // 
-            this.textBox12.Location = new System.Drawing.Point(471, 46);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(337, 21);
-            this.textBox12.TabIndex = 94;
+            this.txtPS.Location = new System.Drawing.Point(471, 46);
+            this.txtPS.Name = "txtPS";
+            this.txtPS.Size = new System.Drawing.Size(337, 21);
+            this.txtPS.TabIndex = 94;
             // 
-            // button1
+            // btnSave
             // 
-            this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(1038, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 48);
-            this.button1.TabIndex = 99;
-            this.button1.Text = "저장";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(108, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 21);
-            this.textBox1.TabIndex = 18;
+            this.btnSave.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnSave.Location = new System.Drawing.Point(1038, 19);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(82, 48);
+            this.btnSave.TabIndex = 99;
+            this.btnSave.Text = "저장";
+            this.btnSave.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -226,12 +226,12 @@
             this.label2.TabIndex = 100;
             this.label2.Text = "공정명";
             // 
-            // textBox2
+            // txtFacNameInput
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 45);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(152, 21);
-            this.textBox2.TabIndex = 101;
+            this.txtFacNameInput.Location = new System.Drawing.Point(176, 45);
+            this.txtFacNameInput.Name = "txtFacNameInput";
+            this.txtFacNameInput.Size = new System.Drawing.Size(152, 21);
+            this.txtFacNameInput.TabIndex = 101;
             // 
             // label4
             // 
@@ -244,12 +244,12 @@
             this.label4.TabIndex = 102;
             this.label4.Text = "공정그룹";
             // 
-            // textBox4
+            // txtFacGroupInput
             // 
-            this.textBox4.Location = new System.Drawing.Point(471, 17);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(152, 21);
-            this.textBox4.TabIndex = 103;
+            this.txtFacGroupInput.Location = new System.Drawing.Point(471, 17);
+            this.txtFacGroupInput.Name = "txtFacGroupInput";
+            this.txtFacGroupInput.Size = new System.Drawing.Size(152, 21);
+            this.txtFacGroupInput.TabIndex = 103;
             // 
             // ProcessInfo
             // 
@@ -269,8 +269,8 @@
             this.tabControl2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gbUsable.ResumeLayout(false);
+            this.gbUsable.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -278,22 +278,22 @@
         #endregion
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtFacName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.ComboBox cmbUsable;
+        private System.Windows.Forms.GroupBox gbUsable;
+        private System.Windows.Forms.RadioButton rbUse;
+        private System.Windows.Forms.RadioButton rbNoUse;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtPS;
+        private System.Windows.Forms.TextBox txtFacCodeInput;
+        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtFacGroupInput;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFacNameInput;
+        private System.Windows.Forms.TextBox txtFacCode;
     }
 }

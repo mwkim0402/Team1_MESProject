@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCatName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCatCode = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -41,31 +41,21 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.txtCatName);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtCatCode);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(12, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1132, 67);
             this.panel2.TabIndex = 13;
             // 
-            // label1
+            // txtCatName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(22, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 16);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "사용자 정의 대분류 코드 :";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(233, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 21);
-            this.textBox1.TabIndex = 9;
+            this.txtCatName.Location = new System.Drawing.Point(676, 27);
+            this.txtCatName.Name = "txtCatName";
+            this.txtCatName.Size = new System.Drawing.Size(159, 21);
+            this.txtCatName.TabIndex = 9;
             // 
             // label2
             // 
@@ -77,12 +67,22 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "사용자 정의 대분류 코드명 :";
             // 
-            // textBox2
+            // txtCatCode
             // 
-            this.textBox2.Location = new System.Drawing.Point(676, 27);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 21);
-            this.textBox2.TabIndex = 9;
+            this.txtCatCode.Location = new System.Drawing.Point(233, 27);
+            this.txtCatCode.Name = "txtCatCode";
+            this.txtCatCode.Size = new System.Drawing.Size(159, 21);
+            this.txtCatCode.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(22, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(193, 16);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "사용자 정의 대분류 코드 :";
             // 
             // UserAssort
             // 
@@ -108,8 +108,8 @@
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCatName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCatCode;
     }
 }

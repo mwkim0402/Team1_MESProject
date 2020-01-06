@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.fcFactory = new AdminForm.FIndCategory();
+            this.btnDown = new System.Windows.Forms.Button();
+            this.fcWorker = new AdminForm.FIndCategory();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dtpEnd = new System.Windows.Forms.DateTimePicker();
             this.dtpStart = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnDown = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +43,7 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel1.Controls.Add(this.btnDown);
-            this.panel1.Controls.Add(this.fcFactory);
+            this.panel1.Controls.Add(this.fcWorker);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dtpEnd);
@@ -54,12 +54,21 @@
             this.panel1.Size = new System.Drawing.Size(1128, 67);
             this.panel1.TabIndex = 4;
             // 
-            // fcFactory
+            // btnDown
             // 
-            this.fcFactory.Location = new System.Drawing.Point(419, 21);
-            this.fcFactory.Name = "fcFactory";
-            this.fcFactory.Size = new System.Drawing.Size(190, 27);
-            this.fcFactory.TabIndex = 5;
+            this.btnDown.Location = new System.Drawing.Point(887, 25);
+            this.btnDown.Name = "btnDown";
+            this.btnDown.Size = new System.Drawing.Size(159, 23);
+            this.btnDown.TabIndex = 6;
+            this.btnDown.Text = "ERP Interface";
+            this.btnDown.UseVisualStyleBackColor = true;
+            // 
+            // fcWorker
+            // 
+            this.fcWorker.Location = new System.Drawing.Point(419, 21);
+            this.fcWorker.Name = "fcWorker";
+            this.fcWorker.Size = new System.Drawing.Size(190, 27);
+            this.fcWorker.TabIndex = 5;
             // 
             // label3
             // 
@@ -107,15 +116,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "근무일자";
             // 
-            // btnDown
-            // 
-            this.btnDown.Location = new System.Drawing.Point(887, 25);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(159, 23);
-            this.btnDown.TabIndex = 6;
-            this.btnDown.Text = "ERP Interface";
-            this.btnDown.UseVisualStyleBackColor = true;
-            // 
             // WorkdiligenceLookup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -138,7 +138,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private FIndCategory fcFactory;
+        private FIndCategory fcWorker;
         private System.Windows.Forms.Button btnDown;
     }
 }

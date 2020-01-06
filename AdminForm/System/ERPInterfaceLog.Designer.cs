@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cmbSuccess = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dtpEnd = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.dtpStart = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.cmbSuccess);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dtpEnd);
             this.panel1.Controls.Add(this.label3);
@@ -51,6 +51,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1128, 67);
             this.panel1.TabIndex = 4;
+            // 
+            // cmbSuccess
+            // 
+            this.cmbSuccess.FormattingEnabled = true;
+            this.cmbSuccess.Location = new System.Drawing.Point(532, 27);
+            this.cmbSuccess.Name = "cmbSuccess";
+            this.cmbSuccess.Size = new System.Drawing.Size(121, 20);
+            this.cmbSuccess.TabIndex = 12;
             // 
             // label2
             // 
@@ -98,14 +106,6 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "인터페이스 일자";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(532, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 20);
-            this.comboBox1.TabIndex = 12;
-            // 
             // ERPInterfaceLog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -128,6 +128,6 @@
         private System.Windows.Forms.DateTimePicker dtpEnd;
         private System.Windows.Forms.DateTimePicker dtpStart;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbSuccess;
     }
 }

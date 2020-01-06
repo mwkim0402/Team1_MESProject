@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCopy = new System.Windows.Forms.Button();
+            this.fcEquip = new AdminForm.FIndCategory();
+            this.fcProd = new AdminForm.FIndCategory();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.fIndCategory1 = new AdminForm.FIndCategory();
-            this.fIndCategory2 = new AdminForm.FIndCategory();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -42,15 +42,38 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.fIndCategory2);
-            this.panel2.Controls.Add(this.fIndCategory1);
+            this.panel2.Controls.Add(this.btnCopy);
+            this.panel2.Controls.Add(this.fcEquip);
+            this.panel2.Controls.Add(this.fcProd);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(12, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1132, 67);
             this.panel2.TabIndex = 16;
+            // 
+            // btnCopy
+            // 
+            this.btnCopy.Location = new System.Drawing.Point(889, 22);
+            this.btnCopy.Name = "btnCopy";
+            this.btnCopy.Size = new System.Drawing.Size(193, 27);
+            this.btnCopy.TabIndex = 10;
+            this.btnCopy.Text = "공정조건 복사";
+            this.btnCopy.UseVisualStyleBackColor = true;
+            // 
+            // fcEquip
+            // 
+            this.fcEquip.Location = new System.Drawing.Point(382, 22);
+            this.fcEquip.Name = "fcEquip";
+            this.fcEquip.Size = new System.Drawing.Size(190, 27);
+            this.fcEquip.TabIndex = 9;
+            // 
+            // fcProd
+            // 
+            this.fcProd.Location = new System.Drawing.Point(88, 22);
+            this.fcProd.Name = "fcProd";
+            this.fcProd.Size = new System.Drawing.Size(190, 27);
+            this.fcProd.TabIndex = 9;
             // 
             // label2
             // 
@@ -71,29 +94,6 @@
             this.label1.Size = new System.Drawing.Size(40, 16);
             this.label1.TabIndex = 8;
             this.label1.Text = "품목";
-            // 
-            // fIndCategory1
-            // 
-            this.fIndCategory1.Location = new System.Drawing.Point(88, 22);
-            this.fIndCategory1.Name = "fIndCategory1";
-            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory1.TabIndex = 9;
-            // 
-            // fIndCategory2
-            // 
-            this.fIndCategory2.Location = new System.Drawing.Point(382, 22);
-            this.fIndCategory2.Name = "fIndCategory2";
-            this.fIndCategory2.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory2.TabIndex = 9;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(889, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(193, 27);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "공정조건 복사";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // ProcessConditionSet
             // 
@@ -118,8 +118,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private FIndCategory fIndCategory2;
-        private FIndCategory fIndCategory1;
+        private System.Windows.Forms.Button btnCopy;
+        private FIndCategory fcEquip;
+        private FIndCategory fcProd;
     }
 }
