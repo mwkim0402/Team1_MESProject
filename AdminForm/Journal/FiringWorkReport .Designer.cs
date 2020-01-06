@@ -30,12 +30,17 @@
         {
             this.SuspendLayout();
             // 
-            // PackingWorkReport
+            // FiringWorkReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1156, 604);
-            this.Name = "FiringWorkReport ";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FiringWorkReport";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "FiringWorkReport ";
             this.ResumeLayout(false);
 

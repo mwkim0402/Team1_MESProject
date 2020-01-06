@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminForm.qulityManagement
 {
-    public partial class RegProcessCondition : Form
+    public partial class RegProcess : Form
     {
-        public RegProcessCondition()
+        public RegProcess()
         {
             InitializeComponent();
         }

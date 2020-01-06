@@ -8,13 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm.StandardInfo
+namespace FieldOperationForm
 {
-    public partial class UserDetailAssort : dgvTwoWithInput
+    public partial class NonOperation : Form
     {
-        public UserDetailAssort()
+        Main_P main;
+        public NonOperation(Main_P main1)
         {
             InitializeComponent();
+            main = main1;
         }
     }
 }

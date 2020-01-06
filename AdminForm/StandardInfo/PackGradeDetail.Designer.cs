@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.fIndCategory1 = new AdminForm.FIndCategory();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.fIndCategory1 = new AdminForm.FIndCategory();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -49,6 +49,21 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1128, 67);
             this.panel2.TabIndex = 12;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(433, 25);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 20);
+            this.comboBox1.TabIndex = 18;
+            // 
+            // fIndCategory1
+            // 
+            this.fIndCategory1.Location = new System.Drawing.Point(121, 20);
+            this.fIndCategory1.Name = "fIndCategory1";
+            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
+            this.fIndCategory1.TabIndex = 17;
             // 
             // label5
             // 
@@ -70,28 +85,18 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "포장 등급";
             // 
-            // fIndCategory1
-            // 
-            this.fIndCategory1.Location = new System.Drawing.Point(121, 20);
-            this.fIndCategory1.Name = "fIndCategory1";
-            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory1.TabIndex = 17;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(433, 25);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 20);
-            this.comboBox1.TabIndex = 18;
-            // 
             // PackGradeDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1156, 604);
             this.Controls.Add(this.panel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "PackGradeDetail";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "PackGradeDetail";
             this.Controls.SetChildIndex(this.tabControl1, 0);
             this.Controls.SetChildIndex(this.panel1, 0);

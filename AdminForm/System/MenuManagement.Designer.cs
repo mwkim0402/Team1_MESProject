@@ -142,7 +142,12 @@
             this.Controls.Add(this.dgvJobOrder);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.dgvProductRequset);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MenuManagement";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "MenuManagement";
             this.tabControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJobOrder)).EndInit();

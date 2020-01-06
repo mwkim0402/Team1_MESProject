@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace AdminForm.StandardInfo
 {
-    public partial class QulitySizeSet : AdminForm.dgvTwoWithInput
+    public partial class QualitySizeSet : AdminForm.dgvTwoWithInput
     {
-        public QulitySizeSet()
+        public QualitySizeSet()
         {
             InitializeComponent();
         }

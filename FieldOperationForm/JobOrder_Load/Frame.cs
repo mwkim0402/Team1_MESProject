@@ -8,13 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm
+namespace FieldOperationForm
 {
-    public partial class ItemClassiInfo : dgvOne
+    public partial class Frame : Form
     {
-        public ItemClassiInfo()
+        Main_P main;
+
+  
+        public Frame(Main_P main1)
         {
             InitializeComponent();
+            main = main1;
         }
     }
 }

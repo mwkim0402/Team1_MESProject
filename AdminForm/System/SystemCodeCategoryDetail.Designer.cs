@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.fIndCategory1 = new AdminForm.FIndCategory();
+            this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,8 +43,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.fIndCategory1 = new AdminForm.FIndCategory();
             this.tabControl1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -73,6 +73,23 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1128, 67);
             this.panel3.TabIndex = 4;
+            // 
+            // fIndCategory1
+            // 
+            this.fIndCategory1.Location = new System.Drawing.Point(169, 22);
+            this.fIndCategory1.Name = "fIndCategory1";
+            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
+            this.fIndCategory1.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.Location = new System.Drawing.Point(54, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(109, 16);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "시스템 대분류";
             // 
             // textBox2
             // 
@@ -181,30 +198,18 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
             this.comboBox1.TabIndex = 12;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label5.Location = new System.Drawing.Point(54, 27);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 16);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "시스템 대분류";
-            // 
-            // fIndCategory1
-            // 
-            this.fIndCategory1.Location = new System.Drawing.Point(169, 22);
-            this.fIndCategory1.Name = "fIndCategory1";
-            this.fIndCategory1.Size = new System.Drawing.Size(190, 27);
-            this.fIndCategory1.TabIndex = 8;
-            // 
             // SystemCodeCategoryDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1156, 604);
             this.Controls.Add(this.panel3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "SystemCodeCategoryDetail";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "SystemCodeCategoryDetail";
             this.Controls.SetChildIndex(this.tabControl1, 0);
             this.Controls.SetChildIndex(this.tabControl2, 0);

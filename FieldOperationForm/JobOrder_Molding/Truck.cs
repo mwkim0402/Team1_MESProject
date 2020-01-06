@@ -8,13 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminForm.qulityManagement
+namespace FieldOperationForm
 {
-    public partial class QulityInquiry : dgvOne
+    public partial class Truck : Form
     {
-        public QulityInquiry()
+        Main_P main;
+     
+        public Truck(Main_P main1)
         {
             InitializeComponent();
+            main = main1;
         }
     }
 }

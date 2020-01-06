@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.fcFactory = new AdminForm.FIndCategory();
-            this.label3 = new System.Windows.Forms.Label();
             this.fIndCategory1 = new AdminForm.FIndCategory();
             this.label1 = new System.Windows.Forms.Label();
+            this.fcFactory = new AdminForm.FIndCategory();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,23 +47,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1128, 67);
             this.panel1.TabIndex = 4;
-            // 
-            // fcFactory
-            // 
-            this.fcFactory.Location = new System.Drawing.Point(364, 22);
-            this.fcFactory.Name = "fcFactory";
-            this.fcFactory.Size = new System.Drawing.Size(190, 27);
-            this.fcFactory.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(318, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "품목";
             // 
             // fIndCategory1
             // 
@@ -82,13 +65,35 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "대차그룹";
             // 
+            // fcFactory
+            // 
+            this.fcFactory.Location = new System.Drawing.Point(364, 22);
+            this.fcFactory.Name = "fcFactory";
+            this.fcFactory.Size = new System.Drawing.Size(190, 27);
+            this.fcFactory.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(318, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 16);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "품목";
+            // 
             // GVStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1156, 604);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "GVStatus";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "GVStatus";
             this.Controls.SetChildIndex(this.panel1, 0);
             this.panel1.ResumeLayout(false);
