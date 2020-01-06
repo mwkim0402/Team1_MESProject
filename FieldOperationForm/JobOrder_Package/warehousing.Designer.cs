@@ -53,6 +53,7 @@
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label7.ForeColor = System.Drawing.Color.Ivory;
             this.label7.Location = new System.Drawing.Point(18, 11);
@@ -64,6 +65,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(18, 54);
@@ -74,6 +76,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.txt_Item);
             this.groupBox1.Controls.Add(this.txt_WorkPlace);
@@ -97,6 +100,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.Ivory;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -110,6 +114,7 @@
             // 
             // txt_Item
             // 
+            this.txt_Item.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_Item.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txt_Item.Location = new System.Drawing.Point(203, 210);
             this.txt_Item.Multiline = true;
@@ -119,6 +124,7 @@
             // 
             // txt_WorkPlace
             // 
+            this.txt_WorkPlace.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_WorkPlace.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txt_WorkPlace.Location = new System.Drawing.Point(203, 271);
             this.txt_WorkPlace.Multiline = true;
@@ -128,6 +134,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label4.ForeColor = System.Drawing.Color.Ivory;
@@ -139,6 +146,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label6.ForeColor = System.Drawing.Color.Ivory;
@@ -150,6 +158,7 @@
             // 
             // txt_WorkDate
             // 
+            this.txt_WorkDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_WorkDate.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txt_WorkDate.Location = new System.Drawing.Point(203, 149);
             this.txt_WorkDate.Multiline = true;
@@ -159,6 +168,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.ForeColor = System.Drawing.Color.Ivory;
@@ -170,6 +180,7 @@
             // 
             // txt_WorkNum
             // 
+            this.txt_WorkNum.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_WorkNum.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txt_WorkNum.Location = new System.Drawing.Point(203, 88);
             this.txt_WorkNum.Multiline = true;
@@ -179,6 +190,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.ForeColor = System.Drawing.Color.Ivory;
@@ -190,6 +202,7 @@
             // 
             // txt_Rating
             // 
+            this.txt_Rating.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_Rating.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txt_Rating.Location = new System.Drawing.Point(203, 393);
             this.txt_Rating.Multiline = true;
@@ -199,6 +212,7 @@
             // 
             // txt_PaletteNum
             // 
+            this.txt_PaletteNum.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_PaletteNum.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txt_PaletteNum.Location = new System.Drawing.Point(203, 27);
             this.txt_PaletteNum.Multiline = true;
@@ -208,6 +222,7 @@
             // 
             // txt_PaletteQuantity
             // 
+            this.txt_PaletteQuantity.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_PaletteQuantity.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txt_PaletteQuantity.Location = new System.Drawing.Point(203, 332);
             this.txt_PaletteQuantity.Multiline = true;
@@ -217,6 +232,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.Color.Ivory;
@@ -228,6 +244,7 @@
             // 
             // label10
             // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label10.ForeColor = System.Drawing.Color.Ivory;
@@ -239,6 +256,7 @@
             // 
             // label11
             // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label11.ForeColor = System.Drawing.Color.Ivory;
@@ -250,6 +268,7 @@
             // 
             // btn_warehousing
             // 
+            this.btn_warehousing.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_warehousing.BackColor = System.Drawing.Color.Ivory;
             this.btn_warehousing.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_warehousing.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
