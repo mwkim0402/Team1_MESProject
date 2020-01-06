@@ -35,7 +35,6 @@
             this.lblChange = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_NonOperation = new System.Windows.Forms.Button();
-            this.btn_Config = new System.Windows.Forms.Button();
             this.lbl_Notice = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -114,7 +113,6 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Ivory;
             this.panel2.Controls.Add(this.btn_NonOperation);
-            this.panel2.Controls.Add(this.btn_Config);
             this.panel2.Controls.Add(this.lbl_Notice);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 783);
@@ -128,26 +126,13 @@
             this.btn_NonOperation.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btn_NonOperation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_NonOperation.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_NonOperation.Location = new System.Drawing.Point(1040, 3);
+            this.btn_NonOperation.Location = new System.Drawing.Point(1187, 5);
             this.btn_NonOperation.Name = "btn_NonOperation";
             this.btn_NonOperation.Size = new System.Drawing.Size(136, 50);
             this.btn_NonOperation.TabIndex = 14;
             this.btn_NonOperation.Text = "비가동 등록";
             this.btn_NonOperation.UseVisualStyleBackColor = false;
             this.btn_NonOperation.Click += new System.EventHandler(this.btn_NonOperation_Click);
-            // 
-            // btn_Config
-            // 
-            this.btn_Config.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Config.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.btn_Config.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Config.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btn_Config.Location = new System.Drawing.Point(1182, 3);
-            this.btn_Config.Name = "btn_Config";
-            this.btn_Config.Size = new System.Drawing.Size(136, 50);
-            this.btn_Config.TabIndex = 13;
-            this.btn_Config.Text = "Config";
-            this.btn_Config.UseVisualStyleBackColor = false;
             // 
             // lbl_Notice
             // 
@@ -158,7 +143,7 @@
             this.lbl_Notice.ForeColor = System.Drawing.Color.OliveDrab;
             this.lbl_Notice.Location = new System.Drawing.Point(12, 10);
             this.lbl_Notice.Name = "lbl_Notice";
-            this.lbl_Notice.Size = new System.Drawing.Size(1018, 41);
+            this.lbl_Notice.Size = new System.Drawing.Size(1169, 41);
             this.lbl_Notice.TabIndex = 12;
             this.lbl_Notice.Text = "~공지사항~ qefsghfhdhd";
             this.lbl_Notice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -191,7 +176,6 @@
         private System.Windows.Forms.Button btn_logout;
         private System.Windows.Forms.Button btn_FormClose;
         private System.Windows.Forms.Button btn_NonOperation;
-        private System.Windows.Forms.Button btn_Config;
         private System.Windows.Forms.Label lbl_Notice;
         public System.Windows.Forms.Button button1;
     }

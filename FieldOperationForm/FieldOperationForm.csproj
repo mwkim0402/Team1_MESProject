@@ -77,6 +77,18 @@
     <Compile Include="CommonForm\workerAllocation .Designer.cs">
       <DependentUpon>workerAllocation .cs</DependentUpon>
     </Compile>
+    <Compile Include="JobOrder_Load\EmptyTruck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder_Load\EmptyTruck.Designer.cs">
+      <DependentUpon>EmptyTruck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobOrder_Load\Frame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder_Load\Frame.Designer.cs">
+      <DependentUpon>Frame.cs</DependentUpon>
+    </Compile>
     <Compile Include="JobOrder_Load\JobOrderStatus_Load .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +100,12 @@
     </Compile>
     <Compile Include="JobOrder_Load\LoadJobOrder.Designer.cs">
       <DependentUpon>LoadJobOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobOrder_Load\LoadPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobOrder_Load\LoadPerformance.Designer.cs">
+      <DependentUpon>LoadPerformance.cs</DependentUpon>
     </Compile>
     <Compile Include="JobOrder_Molding\JobOrderStatus .cs">
       <SubType>Form</SubType>
@@ -172,11 +190,20 @@
     <EmbeddedResource Include="CommonForm\workerAllocation .resx">
       <DependentUpon>workerAllocation .cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder_Load\EmptyTruck.resx">
+      <DependentUpon>EmptyTruck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder_Load\Frame.resx">
+      <DependentUpon>Frame.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="JobOrder_Load\JobOrderStatus_Load .resx">
       <DependentUpon>JobOrderStatus_Load .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JobOrder_Load\LoadJobOrder.resx">
       <DependentUpon>LoadJobOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobOrder_Load\LoadPerformance.resx">
+      <DependentUpon>LoadPerformance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JobOrder_Molding\JobOrderStatus .resx">
       <DependentUpon>JobOrderStatus .cs</DependentUpon>

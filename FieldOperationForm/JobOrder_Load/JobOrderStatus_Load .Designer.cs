@@ -43,9 +43,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
@@ -56,7 +54,7 @@
             // 
             // btn_StartEnd
             // 
-            this.btn_StartEnd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_StartEnd.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_StartEnd.BackColor = System.Drawing.Color.Ivory;
             this.btn_StartEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_StartEnd.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -71,7 +69,7 @@
             // 
             // btn_FieldClose
             // 
-            this.btn_FieldClose.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_FieldClose.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_FieldClose.BackColor = System.Drawing.Color.Ivory;
             this.btn_FieldClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FieldClose.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -85,7 +83,7 @@
             // 
             // btn_JobOrder
             // 
-            this.btn_JobOrder.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_JobOrder.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_JobOrder.BackColor = System.Drawing.Color.Ivory;
             this.btn_JobOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_JobOrder.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -100,7 +98,7 @@
             // 
             // btn_Worker
             // 
-            this.btn_Worker.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_Worker.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Worker.BackColor = System.Drawing.Color.Ivory;
             this.btn_Worker.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Worker.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -115,7 +113,7 @@
             // 
             // btn_LoadPerformance
             // 
-            this.btn_LoadPerformance.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_LoadPerformance.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_LoadPerformance.BackColor = System.Drawing.Color.Ivory;
             this.btn_LoadPerformance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_LoadPerformance.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -126,10 +124,11 @@
             this.btn_LoadPerformance.TabIndex = 5;
             this.btn_LoadPerformance.Text = "적재 실적\r\n등록";
             this.btn_LoadPerformance.UseVisualStyleBackColor = false;
+            this.btn_LoadPerformance.Click += new System.EventHandler(this.btn_LoadPerformance_Click);
             // 
             // btn_frame
             // 
-            this.btn_frame.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_frame.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_frame.BackColor = System.Drawing.Color.Ivory;
             this.btn_frame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_frame.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -140,10 +139,11 @@
             this.btn_frame.TabIndex = 6;
             this.btn_frame.Text = "요입/요출";
             this.btn_frame.UseVisualStyleBackColor = false;
+            this.btn_frame.Click += new System.EventHandler(this.btn_frame_Click);
             // 
             // btn_EmptyDriedTruck
             // 
-            this.btn_EmptyDriedTruck.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_EmptyDriedTruck.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_EmptyDriedTruck.BackColor = System.Drawing.Color.Ivory;
             this.btn_EmptyDriedTruck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_EmptyDriedTruck.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -154,10 +154,11 @@
             this.btn_EmptyDriedTruck.TabIndex = 7;
             this.btn_EmptyDriedTruck.Text = "건조대차\r\n비우기";
             this.btn_EmptyDriedTruck.UseVisualStyleBackColor = false;
+            this.btn_EmptyDriedTruck.Click += new System.EventHandler(this.btn_EmptyDriedTruck_Click);
             // 
             // btn_Process
             // 
-            this.btn_Process.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_Process.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Process.BackColor = System.Drawing.Color.Ivory;
             this.btn_Process.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Process.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -172,7 +173,7 @@
             // 
             // btn_Quality
             // 
-            this.btn_Quality.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btn_Quality.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Quality.BackColor = System.Drawing.Color.Ivory;
             this.btn_Quality.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Quality.Font = new System.Drawing.Font("나눔고딕 ExtraBold", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));

@@ -53,7 +53,8 @@ namespace FieldOperationForm
         private void button1_Click_1(object sender, EventArgs e)
         {
             //JobOrderStatus_Package frm = new JobOrderStatus_Package(this);
-            JobOrderStatus frm = new JobOrderStatus(this);
+            // JobOrderStatus frm = new JobOrderStatus(this);
+            JobOrderStatus_Load frm = new JobOrderStatus_Load(this);
             frm.BringToFront();
             frm.MdiParent = this;
             frm.Dock = DockStyle.Fill;

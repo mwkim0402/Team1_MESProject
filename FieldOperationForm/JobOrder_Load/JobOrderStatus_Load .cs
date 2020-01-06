@@ -69,5 +69,35 @@ namespace FieldOperationForm
             frm.Show();
             main.lblChange.Text = "적재 작업지시 생성";
         }
+
+        private void btn_LoadPerformance_Click(object sender, EventArgs e)
+        {
+            LoadPerformance frm = new LoadPerformance(main);
+            frm.BringToFront();
+            frm.MdiParent = main;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            main.lblChange.Text = "적재 실적 등록";
+        }
+
+        private void btn_frame_Click(object sender, EventArgs e)
+        {
+            Frame frm = new Frame(main);
+            frm.BringToFront();
+            frm.MdiParent = main;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            main.lblChange.Text = "요입 / 요출 관리";
+        }
+
+        private void btn_EmptyDriedTruck_Click(object sender, EventArgs e)
+        {
+            EmptyTruck frm = new EmptyTruck(main);
+            frm.BringToFront();
+            frm.MdiParent = main;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            main.lblChange.Text = "건조대차 비우기";
+        }
     }
 }
